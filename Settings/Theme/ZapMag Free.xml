@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:js='true' b:layoutsVersion='3' b:responsive='true' b:templateVersion='2.9' expr:lang='data:blog.localeUnderscoreDelimited' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+    <head>
+ <!--Template Information-->
+<!--Name: &#9889;Zap Mag-->
+<!--Author: Md Rakib-->
+<!--License: Free version-->
+<!--Version: 1.5-->
+<!-- Buy premium version to get all features. in free version you can't change footer credit -->
+
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<b:include name='meta-content'/>
+<b:if cond='!data:view.isLayoutMode and !data:isFeed'>
+<b:skin version='2.0.0'><![CDATA[
+
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}table{border-collapse:collapse;border-spacing:0}html{font-size:100%;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;scroll-behavior: smooth;}
+a,body,h1,h2,h3,h4,h5,h6{color:#121212}
+b,dt,strong{font-weight:700}
+.zapmag-chead,.zapmag-loop-excerpt,.zapmag-meta,.social-share,.widget{overflow:hidden}
+
+
+
+body{font-size:.875rem;line-height:1.6;background:white;word-wrap:break-word;font-family:Arial}
+]]></b:skin>
+<b:include name='css'/>
+</b:if>
+<b:if cond='data:view.isLayoutMode'>
+<b:template-skin><![CDATA[
+html,body#layout body#layout .row{width:auto;padding:0}
+body#layout{position:relative;width:auto;max-width:100%;background-color:#fff;padding:95px 5px 0;margin:0 0 0 1px;border-width:1px 0 0;border-color:#eceff1}
+body#layout:before{content:"Zap Mag - free (buy premium to get special features)";position:absolute;top:0;left:5px;right:5px;height:95px;font-size:23px;color:#263238;line-height:95px;text-align:center}
+body#layout div.section{display:block;background-color:#eceff1!important;margin:0 5px 10px!important;padding:16px 16px 18px!important;border:0}
+body#layout .section h4{display:-webkit-box;font-size:14px;color:#263238;text-transform:uppercase;margin:0}
+body#layout .section h4:after{text-transform:initial;color:#757575;font-weight:400}
+body#layout .add_widget a{display:-webkit-box;color:#4385f5!important}
+body#layout .widget-wrap3{overflow:hidden}
+body#layout .widget-content{width:auto;max-width:none;max-height:none;margin:0;border:1px solid #e7e7e8;border-left:0}
+body#layout .locked-widget .widget-content{border-left:1px solid #4385f5}
+body#layout .locked-widget .widget-content:hover{border-left-color:#33a453}
+body#layout div.layout-title{display:-webkit-box;color:#757575}
+body#layout .widget .widget-content a.editlink{border-radius:2px}
+body#layout .visibility .editlink{background:#4385f5 url(https://1.bp.blogspot.com/--z1wepFalfQ/YOObl8avCFI/AAAAAAAAAE8/Z-iC0j0LLpo7u2ZpHvW0hGaHhBOvVYYaQCLcBGAsYHQ/s48/edit.png) no-repeat center!important;background-size:20px!important}
+body#layout .visibility .editlink:hover{background-color:#33a453!important}
+body#layout .draggable-widget .widget-wrap2{background:#4385f5 url(https://1.bp.blogspot.com/-ciJD7MVmo10/YORQlzt9a1I/AAAAAAAAAFk/L4fK5cgelFoWX9rZvGFKZdr1d_RM9kfjACLcBGAsYHQ/s68/drag.png) no-repeat 4px 50%!important;background-size:4px auto!important}
+body#layout .draggable-widget .widget-wrap1:hover .widget-wrap2{background-color:#33a453!important}
+body#layout .visibility .layout-widget-state.visible{background-image:url(https://1.bp.blogspot.com/-aPoC3YxQo6g/YOOeDVSsJqI/AAAAAAAAAFM/oyvPLSJVIRQpAu-g0gZL89g5Caq4_4DeQCLcBGAsYHQ/s48/visibility_on.png)!important;background-size:24px!important}
+body#layout .visibility .layout-widget-state.not-visible{background-image:url(https://1.bp.blogspot.com/-x_kkTMRQfHs/YOOeMUjTE8I/AAAAAAAAAFQ/RRj6YLBNuMEHwTB_81304fCxy8dl7h46gCLcBGAsYHQ/s48/visibility_off.png)!important;background-size:24px!important;opacity:1}
+body#layout div.layout-widget-description{display:none;font-size:11px;line-height:1.2em}
+body#layout .flex-left{display:flex}
+body#layout .main-logo,body#layout .main-menu{width:50%}
+body#layout .content-wrap{padding:0;margin:0}
+body#layout .content-wrap > .container{display:flex;margin:0}
+body#layout main-content{width:67%;padding:0;float:left;}
+body#layout sidebar{width:33%;padding:0;float:right;}
+body#layout. section > h4:after{font-size:12px}
+body#layout .zapmag-footer-widgets {width:100%;display:flex;box-sizing:border-box;}
+body#layout .zapmag-footer-widgets #footer-section-2 {width:25%;display:block;}
+body#layout .zapmag-footer-widgets #footer-section-3 {width:25%;display:block;}
+body#layout .zapmag-footer-widgets #footer-section-4 {width:25%;display:block;}
+body#layout .zapmag-footer-widgets #footer-section-5 {width:25%;display:block;}
+body#layout .zapmag-wrapper {width:100%;display:flex;}
+body#layout #main-content {width:65%;float:left;}
+body#layout aside {width:35%;float:right;}
+body#layout #main-content > h4:after{content:" - Default Blog Posts, AdSense In-Feed, Comments and More"}
+body#layout #sidebar > h4:after{content:" - Sidebar widgets"}
+body#layout #theme-copyright > h4:after{content:" - Copyright Area"}
+body#layout:after{content:"\0000a9\0000a0\Zap Mag - free (1.5)";display:block;font-family:Roboto,sans-serif;font-size:14px;color:rgba(0,0,0,.54);line-height:1;text-align:center;visibility:visible;padding:20px 0 30px}
+body#layout #hidden{display:none!important}
+body#layout #theme-copyright {width:100%;padding:10px;background:#fcfcfc;}
+body#layout #Settings > h4:after {content:" - You can change icons";}
+body#layout #Settings div.widget {width:200px;display:flex;}
+body#layout #header-link > h4:after {content:" - Add Links";}
+]]></b:template-skin>
+</b:if>
+    &lt;/head&gt;    
+ &lt;body class=&#39;zapmag-right-sb&#39; id=&#39;zapmag-mobile&#39;&gt;
+
+&lt;textarea disabled readonly style=&quot;display:none&quot;&gt;</head><body>&lt;/textarea&gt;
+
+
+
+
+
+    <b:if cond='data:view.isError'>
+  <div class='error-container'>
+        <h1 class='error-heading'>404</h1>
+        <h3 class='error-message'>Oops! Page not found.</h3>
+        <p class='error-message'>Sorry, the page you are looking for might have been removed or doesn&#39;t exist.</p><br/>
+        <a class='error-link' href='/'>Go back to homepage</a>
+    </div>
+<b:else/>
+<div class='overlay' id='overlay'/>
+<div id='share-overlay' onclick='openShare()'/>
+<div class='toast' id='toast'/>
+ 
+   <div class='zapmag-container zapmag-container-outer'>
+
+<nav>
+        <div class='nav-bar'>
+<svg aria-hidden='true' class='sidebarOpen' height='28' onclick='navigator.vibrate(50)' width='28'><use xlink:href='#icon-bars'/></svg>
+            <span class='logo navLogo'><b:section id='header-logo' maxwidgets='1' showaddelement='false'>
+  <b:widget id='Image1' locked='true' title='Light Logo' type='Image' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhNRozzwNLs1gDrTUGW_ip09Y33bHHYSZn7t3Zfis1eYzBvAjsfWhTof6ogpXn6AspCZQD-hKvBRhxgvTA_aj6bly7l46VDUGRVn0-Q4rbO_MlZZhO-mkXR4Wxs2tJb_q9_ma9djdWPsk3n3icAba07cx-YyVNjLw294QEXXpEVGZOwlPf3qJWnAcYXKuVn=s200</b:widget-setting>
+      <b:widget-setting name='displayHeight'>45</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>811</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+      <b:widget-setting name='displayWidth'>200</b:widget-setting>
+      <b:widget-setting name='link'>https://blogger.googleusercontent.com/img/a/AVvXsEiU63eYwqjohP66BM1clx9X-_3OTV_iEyv7b2NuoI-OI34mYsE3rpeZ9QW8ib4Y0k95inPIyWfETmW9m9_at2am7vci85rjpqPR3dSUfJlvn8-QVSXyEM8YGs_ppZxGL_Kdpk-K7OvrcYKSxvYJQuw3tuWleqN7XCWpvaTVMUZlZte8q-1m0CYl73vTFD0=s200</b:widget-setting>
+      <b:widget-setting name='caption'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:include name='content'/>
+</b:includable>
+    <b:includable id='content'>
+      <a expr:href='data:blog.homepageUrl' expr:title='data:blog.title'><img class='lazy' expr:alt='data:blog.title' expr:data-src='data:sourceUrl' height='45' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;200&quot; height=&quot;45&quot;%3E%3C/svg%3E' width='160'/></a>
+</b:includable>
+  </b:widget>
+</b:section></span>
+<div class='sidebar-overlay'/>
+            <div class='menu'>
+                <div class='logo-toggle'>
+                    <span class='logo'><span class='nav-sidebar'><a expr:href='data:blog.homepageUrl'><data:blog.title/></a></span></span>
+<svg aria-hidden='true' class='siderbarClose' height='24' onclick='navigator.vibrate(50);' width='24'><use xlink:href='#icon-close'/></svg>
+                </div>
+
+<b:section id='header-link' maxwidgets='1' showaddelement='false'>
+  <b:widget id='LinkList1' locked='true' title='' type='LinkList' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='link-3'>/p/terms-and-conditions.html</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-4'>https://demo-zapmag.blogspot.com</b:widget-setting>
+      <b:widget-setting name='text-1'>Contact</b:widget-setting>
+      <b:widget-setting name='link-1'>/p/contact-us.html</b:widget-setting>
+      <b:widget-setting name='text-0'>About</b:widget-setting>
+      <b:widget-setting name='link-2'>/p/privacy-policy.html</b:widget-setting>
+      <b:widget-setting name='text-3'>Terms</b:widget-setting>
+      <b:widget-setting name='link-0'>/p/about-us.html</b:widget-setting>
+      <b:widget-setting name='text-2'>Privacy</b:widget-setting>
+      <b:widget-setting name='text-4'>Pro Version</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:include name='content'/>
+</b:includable>
+    <b:includable id='content'>
+   <ul class='nav-links'>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+</b:includable>
+  </b:widget>
+</b:section>
+            </div>
+            <div class='darkLight-searchBox'>
+                <div class='searchBox'>
+                   <div class='searchToggle' onclick='showSearch();navigator.vibrate(50);'>
+<svg aria-hidden='true' height='24' width='24'><use xlink:href='#icon-search'/></svg>
+                   </div>
+<div class='autoSearchOverly' id='autoSearchOverly' onclick='showSearch()'/>
+<div class='autoSearch' id='autoSearch'>
+                       <form action='/search' id='searchForm'> <input autocomplete='on' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' id='searchInput' name='q' placeholder='Search...' required='required' title='search' type='search'/>
+</form>
+</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+<div style='padding-top:40px'/>
+            <div class='zapmag-wrapper zapmag-clearfix'>
+            	<div class='zapmag-loop zapmag-content' id='main-content'>
+            	<b:section cond='data:view.isHomepage' id='features-1' maxwidgets='1' title='Featured Post 1'/>
+                        <b:section id='main' showaddelement='yes' title='Main'>
+                          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' visible='true'>
+                            <b:widget-settings>
+                              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+                              <b:widget-setting name='commentLabel'>Comment</b:widget-setting>
+                              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+                              <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+                              <b:widget-setting name='authorLabel'>by</b:widget-setting>
+                              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+                              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+                              <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+                              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                              <b:widget-setting name='timestampLabel'>d MMM, yyyy</b:widget-setting>
+                              <b:widget-setting name='reactionsLabel'/>
+                              <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
+                              <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                              <b:widget-setting name='showLabels'>true</b:widget-setting>
+                              <b:widget-setting name='showLocation'>false</b:widget-setting>
+                              <b:widget-setting name='postLabelsLabel'>Categories:</b:widget-setting>
+                              <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+                              <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                              <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                              <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                              <b:widget-setting name='showReactions'>false</b:widget-setting>
+                            </b:widget-settings>
+                            <b:includable id='main' var='top'>
+      <b:include name='main-blog-contents'/>
+    </b:includable>
+                            <b:includable id='aboutPostAuthor'/>
+                            <b:includable id='addComments'/>
+                            <b:includable id='blogThisShare'/>
+                            <b:includable id='bylineByName'/>
+                            <b:includable id='bylineRegion'/>
+                            <b:includable id='commentAuthorAvatar'/>
+                            <b:includable id='commentDeleteIcon'/>
+                            <b:includable id='commentForm'/>
+                            <b:includable id='commentFormIframeSrc'/>
+                            <b:includable id='commentItem'/>
+                            <b:includable id='commentList'/>
+                            <b:includable id='commentPicker'/>
+                            <b:includable id='comments'/>
+                            <b:includable id='commentsLink'/>
+                            <b:includable id='commentsLinkIframe'/>
+                            <b:includable id='commentsTitle'/>
+                            <b:includable id='defaultAdUnit'/>
+                            <b:includable id='emailPostIcon'/>
+                            <b:includable id='facebookShare'/>
+                            <b:includable id='feedLinks'/>
+                            <b:includable id='feedLinksBody'/>
+                            <b:includable id='footerBylines'/>
+                            <b:includable id='googlePlusShare'/>
+                            <b:includable id='headerByline'/>
+                            <b:includable id='homePageLink'/>
+                            <b:includable id='iframeComments'/>
+                            <b:includable id='inlineAd'/>
+                            <b:includable id='linkShare'/>
+                            <b:includable id='manageComments'/>
+                            <b:includable id='nextPageLink'/>
+                            <b:includable id='otherSharingButton'/>
+                            <b:includable id='platformShare'/>
+                            <b:includable id='post'/>
+                            <b:includable id='postAuthor'/>
+                            <b:includable id='postBody'/>
+                            <b:includable id='postBodySnippet'/>
+                            <b:includable id='postCommentsAndAd'/>
+                            <b:includable id='postCommentsLink'/>
+                            <b:includable id='postFooter'/>
+                            <b:includable id='postFooterAuthorProfile'/>
+                            <b:includable id='postHeader'/>
+                            <b:includable id='postJumpLink' var='post'/>
+                            <b:includable id='postLabels'/>
+                            <b:includable id='postLocation'/>
+                            <b:includable id='postMeta'/>
+                            <b:includable id='postMetadataJSONImage'/>
+                            <b:includable id='postMetadataJSONPublisher'/>
+                            <b:includable id='postPagination'/>
+                            <b:includable id='postReactions'/>
+                            <b:includable id='postShareButtons'/>
+                            <b:includable id='postTimestamp'/>
+                            <b:includable id='postTitle'/>
+                            <b:includable id='previousPageLink'/>
+                            <b:includable id='sharingButton'/>
+                            <b:includable id='sharingButtonContent'/>
+                            <b:includable id='sharingButtons'/>
+                            <b:includable id='sharingButtonsMenu'/>
+                            <b:includable id='sharingPlatformIcon'/>
+                            <b:includable id='threadedCommentForm'/>
+                            <b:includable id='threadedCommentJs'/>
+                            <b:includable id='threadedComments'/>
+                          </b:widget>
+                        </b:section>
+                          <b:section cond='data:view.isHomepage' id='features-2' maxwidgets='1' title='Featured Post 2'>
+                            <b:widget id='HTML2' locked='false' title='Web Development' type='HTML' visible='true'>
+                              <b:widget-settings>
+                                <b:widget-setting name='content'>6</b:widget-setting>
+                              </b:widget-settings>
+                              <b:includable id='main'>
+      <b:include name='zap-Mag-Html'/>
+    </b:includable>
+                            </b:widget>
+                          </b:section>
+</div>
+<aside class='zapmag-widget-col-1 zapmag-sidebar'>
+<b:section id='sidebar' title='Sidebar Items'>
+  <b:widget id='BlogSearch1' locked='false' title='Search' type='BlogSearch' visible='true'>
+    <b:includable id='main'>
+<b:include name='zap-Mag-Search'/>
+    </b:includable>
+    <b:includable id='content'>
+  <div class='widget-content' role='search'>
+    <b:include name='searchForm'/>
+  </div>
+</b:includable>
+    <b:includable id='searchForm'>
+  <form expr:action='data:blog.searchUrl'>
+    <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+    <b:include name='urlParamsAsFormInput'/>
+    <div class='search-input'>
+      <input autocomplete='off' expr:aria-label='data:messages.searchThisBlog' expr:placeholder='data:messages.searchThisBlog' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'/>
+    </div>
+    <b:include name='searchSubmit'/>
+  </form>
+</b:includable>
+    <b:includable id='searchSubmit'>
+  <input class='search-action' expr:value='data:messages.search.escaped' type='submit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
+      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+      <b:widget-setting name='showSnippets'>false</b:widget-setting>
+      <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:include name='zap-Mag-PopularPosts'/>
+    </b:includable>
+    <b:includable id='blogThisShare'/>
+    <b:includable id='bylineByName'/>
+    <b:includable id='bylineRegion'/>
+    <b:includable id='commentsLink'/>
+    <b:includable id='commentsLinkIframe'/>
+    <b:includable id='emailPostIcon'/>
+    <b:includable id='facebookShare'/>
+    <b:includable id='footerBylines'/>
+    <b:includable id='googlePlusShare'/>
+    <b:includable id='headerByline'/>
+    <b:includable id='linkShare'/>
+    <b:includable id='otherSharingButton'/>
+    <b:includable id='platformShare'/>
+    <b:includable id='postAuthor'/>
+    <b:includable id='postCommentsLink'/>
+    <b:includable id='postJumpLink'/>
+    <b:includable id='postLabels'/>
+    <b:includable id='postLocation'/>
+    <b:includable id='postReactions'/>
+    <b:includable id='postShareButtons'/>
+    <b:includable id='postTimestamp'/>
+    <b:includable id='sharingButton'/>
+    <b:includable id='sharingButtonContent'/>
+    <b:includable id='sharingButtons'/>
+    <b:includable id='sharingButtonsMenu'/>
+    <b:includable id='sharingPlatformIcon'/>
+    <b:includable id='snippetedPostByline'/>
+    <b:includable id='snippetedPostContent'/>
+    <b:includable id='snippetedPostThumbnail'/>
+    <b:includable id='snippetedPostTitle'/>
+    <b:includable id='snippetedPosts'/>
+  </b:widget>
+  <b:widget id='Label1' locked='false' title='Categories' type='Label' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='display'>CLOUD</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:include name='zap-Mag-Label'/>
+    </b:includable>
+    <b:includable id='cloud'/>
+    <b:includable id='content'/>
+    <b:includable id='list'/>
+  </b:widget>
+</b:section>
+</aside>
+   </div>
+   <b:section class='zapmag-copyright-wrap' id='theme-copyright' maxwidgets='1' name='Copyright' showaddelement='yes'>
+     <b:widget id='Text50' locked='true' title='' type='Text' version='2' visible='true'>
+       <b:widget-settings>
+         <b:widget-setting name='content'>All Rights Reserved.</b:widget-setting>
+       </b:widget-settings>
+       <b:includable id='main'>
+             	<b:if cond='data:content != &quot;&quot;'>
+  <div class='zapmag-container zapmag-container-inner zapmag-clearfix'>
+<p class='zapmag-copyright'>&#169;<span id='year'/>  <data:blog.title/>. <data:content/> <span id='credit'/></p></div>
+  </b:if>
+    </b:includable>
+     </b:widget>
+   </b:section>
+   </div> <div class='back-to-top'><svg aria-hidden='true' height='30' width='30'><use xlink:href='#icon-back-top'/></svg></div>
+   
+   
+   
+   
+   </b:if>
+   
+   
+   
+   
+   <b:section class='hidden1' id='Settings' showaddelement='false'>
+     <b:widget id='HTML241' locked='true' title='SVG- Icons' type='HTML' version='2' visible='true'>
+       <b:widget-settings>
+         <b:widget-setting name='content'><![CDATA[<symbol id="icon-alert-circle" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol>
+<symbol id="icon-linked-in" viewbox='0 0 32 32' fill='currentColor'><path d='M24,3H8A5,5,0,0,0,3,8V24a5,5,0,0,0,5,5H24a5,5,0,0,0,5-5V8A5,5,0,0,0,24,3Zm3,21a3,3,0,0,1-3,3H8a3,3,0,0,1-3-3V8A3,3,0,0,1,8,5H24a3,3,0,0,1,3,3Z'/><path d='M11,14a1,1,0,0,0-1,1v6a1,1,0,0,0,2,0V15A1,1,0,0,0,11,14Z'/><path d='M19,13a4,4,0,0,0-4,4v4a1,1,0,0,0,2,0V17a2,2,0,0,1,4,0v4a1,1,0,0,0,2,0V17A4,4,0,0,0,19,13Z'/><circle cx='11' cy='11' r='1'/></circle></path></path></path></symbol>
+<symbol id="icon-pinterest" viewbox='0 0 32 32' fill='currentColor'><path d='M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26a12,12,0,0,1-3.81-.63l1.2-4.81A7.93,7.93,0,0,0,16,23a8.36,8.36,0,0,0,1.4-.12,8,8,0,1,0-9.27-6.49,1,1,0,0,0,2-.35,6,6,0,1,1,3.79,4.56L15,16.24A1,1,0,1,0,13,15.76l-2.7,10.81A12,12,0,1,1,16,28Z'/></path></symbol>
+<symbol id="icon-youtube" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></symbol>
+<symbol id="icon-clock" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></symbol>
+<symbol id="icon-author" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></symbol>
+<symbol id="icon-plus" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></symbol>
+<symbol id="icon-sun" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></symbol>
+<symbol id="icon-moon" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></symbol>
+<symbol id="icon-bookmark-plus" viewbox="0 0 16 16" fill="currentColor"><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/><path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4"/></path></path></symbol>
+<symbol id="icon-close" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></symbol>
+<symbol id="icon-tags" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></symbol>
+<symbol id="icon-link" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></symbol>
+<symbol id="icon-facebook" viewbox="0 0 16 16" stroke="none" fill="currentColor" ><path d='M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z'/></path></symbol>
+<symbol id="icon-whatsapp" viewbox='0 0 32 32' fill='currentColor'><path d='M16,2A13,13,0,0,0,8,25.23V29a1,1,0,0,0,.51.87A1,1,0,0,0,9,30a1,1,0,0,0,.51-.14l3.65-2.19A12.64,12.64,0,0,0,16,28,13,13,0,0,0,16,2Zm0,24a11.13,11.13,0,0,1-2.76-.36,1,1,0,0,0-.76.11L10,27.23v-2.5a1,1,0,0,0-.42-.81A11,11,0,1,1,16,26Z'/><path d='M19.86,15.18a1.9,1.9,0,0,0-2.64,0l-.09.09-1.4-1.4.09-.09a1.86,1.86,0,0,0,0-2.64L14.23,9.55a1.9,1.9,0,0,0-2.64,0l-.8.79a3.56,3.56,0,0,0-.5,3.76,10.64,10.64,0,0,0,2.62,4A8.7,8.7,0,0,0,18.56,21a2.92,2.92,0,0,0,2.1-.79l.79-.8a1.86,1.86,0,0,0,0-2.64Zm-.62,3.61c-.57.58-2.78,0-4.92-2.11a8.88,8.88,0,0,1-2.13-3.21c-.26-.79-.25-1.44,0-1.71l.7-.7,1.4,1.4-.7.7a1,1,0,0,0,0,1.41l2.82,2.82a1,1,0,0,0,1.41,0l.7-.7,1.4,1.4Z'/></path></path></symbol>
+<symbol id="icon-reply" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 10 4 15 9 20"></polyline><path d="M20 4v7a4 4 0 0 1-4 4H4"></path></symbol>
+<symbol id="icon-trash" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></symbol>
+<symbol id="icon-home" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></symbol>
+<symbol id="icon-arrow-right" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></symbol>
+<symbol id="icon-arrow-left" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></symbol>
+<symbol id="icon-back-top" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></symbol>
+<symbol id="icon-twitter" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></symbol>
+<symbol id="icon-email" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></symbol>
+<symbol id="icon-share" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></symbol>
+<symbol id="icon-tiktok" viewbox="0 0 16 16" stroke="none" fill="currentColor" > <path d='M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z'/></path></symbol>
+<symbol id="icon-telegram" viewbox='0 0 32 32' fill='currentColor'><path d='M24,28a1,1,0,0,1-.62-.22l-6.54-5.23a1.83,1.83,0,0,1-.13.16l-4,4a1,1,0,0,1-1.65-.36L8.2,18.72,2.55,15.89a1,1,0,0,1,.09-1.82l26-10a1,1,0,0,1,1,.17,1,1,0,0,1,.33,1l-5,22a1,1,0,0,1-.65.72A1,1,0,0,1,24,28Zm-8.43-9,7.81,6.25L27.61,6.61,5.47,15.12l4,2a1,1,0,0,1,.49.54l2.45,6.54,2.89-2.88-1.9-1.53A1,1,0,0,1,13,19a1,1,0,0,1,.35-.78l7-6a1,1,0,1,1,1.3,1.52Z'/></path></symbol>
+<symbol id="icon-comment" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></symbol>
+<symbol id="icon-verified" viewbox='0 0 24 24'><path d='M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z' fill='dodgerblue'/></path></symbol>
+<symbol id="icon-write" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></symbol>
+<symbol id="icon-download" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></symbol>
+<symbol id="icon-search" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></symbol>
+<symbol id="icon-hash" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></symbol>
+<symbol id="icon-bookmark" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></symbol>
+<symbol id="icon-bars" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></symbol>]]></b:widget-setting>
+       </b:widget-settings>
+       <b:includable id='main'>
+      <svg style='display:none' xmlns='http://www.w3.org/2000/svg'><data:content/></svg>
+    </b:includable>
+     </b:widget>
+   </b:section>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <b:defaultmarkups>
+  <b:defaultmarkup type='Common'>
+  	<b:includable id='metadataJSON' var='post'> <script type='application/ld+json'> { &quot;@context&quot;: &quot;https://schema.org&quot;, &quot;@type&quot;: &quot;NewsArticle&quot;, &quot;mainEntityOfPage&quot;: { &quot;@type&quot;: &quot;WebPage&quot;, &quot;@id&quot;: &quot;<data:post.url.canonical.jsonEscaped/>&quot; }, &quot;headline&quot;: &quot;<data:post.title.jsonEscaped/>&quot;, &quot;description&quot;: &quot;<b:eval expr='(data:post.body snippet { length: 150, links: false, linebreaks: false, ellipsis: true }).jsonEscaped'/>&quot;, &quot;datePublished&quot;: &quot;<data:post.date.iso8601.jsonEscaped/>&quot;, &quot;dateModified&quot;: &quot;<data:post.lastUpdated.iso8601.jsonEscaped/>&quot;, <b:if cond='data:post.featuredImage'> &quot;image&quot;: &quot;<b:eval expr='resizeImage(data:post.featuredImage, 1200, &quot;16:9&quot;).jsonEscaped'/>&quot;, <b:else/> &quot;image&quot;: &quot;<b:eval expr='resizeImage(&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSr0ef4qwRikooZ-ejYVC-783MfY2QUk8UwCQPLu8yitOLFlJuBVXrxXs_Z33W-J-quikNt6sRlmC-SXcRXGdUjrvqB391vcGz6sowRwV_op8WuE93H6dsXvOkq0vUmXheZ7rmIwn-qRxLsv2TbdRghckS8ows0x0aLzk0RbWSEzZ5Eab7G5i7NGtGIg/s1200/no-image.png&quot;, 1200, &quot;16:9&quot;).jsonEscaped'/>&quot;, </b:if> &quot;author&quot;: { &quot;@type&quot;: &quot;Person&quot;, &quot;name&quot;: &quot;<data:post.author.name.jsonEscaped/>&quot;, &quot;url&quot;: &quot;<b:eval expr='data:post.author.profileUrl ?: data:post.url.jsonEscaped'/>&quot; }, &quot;publisher&quot;: { &quot;@type&quot;: &quot;Organization&quot;, &quot;name&quot;: &quot;<data:blog.title.jsonEscaped/>&quot;, &quot;logo&quot;: { &quot;@type&quot;: &quot;ImageObject&quot;, &quot;url&quot;: &quot;<b:include data='{width: 60}' name='logo'/>&quot; } } } </script> <b:if cond='data:view.isPost and data:post.labels'> <script type='application/ld+json'> { &quot;@context&quot;: &quot;https://schema.org&quot;, &quot;@type&quot;: &quot;BreadcrumbList&quot;, &quot;itemListElement&quot;: [ { &quot;@type&quot;: &quot;ListItem&quot;, &quot;position&quot;: 1, &quot;name&quot;: &quot;Home&quot;, &quot;item&quot;: &quot;<data:blog.homepageUrl.canonical.jsonEscaped/>&quot; }<b:loop index='i' values='data:post.labels' var='label'>, { &quot;@type&quot;: &quot;ListItem&quot;, &quot;position&quot;: <b:eval expr='data:i + 2'/>, &quot;name&quot;: &quot;<data:label.name.jsonEscaped/>&quot;, &quot;item&quot;: &quot;<data:label.url.canonical.jsonEscaped/>&quot; }</b:loop> ] } </script> </b:if> </b:includable>
+ <b:includable id='meta-content'>
+<meta content='blogger' name='generator'/> <meta content='' name='author'/>
+<meta expr:content='data:blog.localeUnderscoreDelimited' property='og:locale'/> 
+<meta expr:content='data:blog.title.escaped' property='og:site_name'/> 
+<meta expr:content='data:blog.url.canonical' property='og:url'/> 
+<meta expr:content='data:view.isPost ? &quot;article&quot; : &quot;website&quot;' property='og:type'/> 
+<b:if cond='data:blog.adultContent'> <meta content='adult' name='rating'/> </b:if> 
+<link expr:href='data:blog.url.canonical' rel='canonical'/>   
+<meta content='#1976d2' name='theme-color'/> 
+<meta content='#1976d2' name='apple-mobile-web-app-status-bar-style'/> 
+<meta content='#1976d2' name='msapplication-navbutton-color'/>  
+<meta content='yes' name='mobile-web-app-capable'/>
+&lt;link href=&#39;<b:include data='{width: 32}' name='logo'/>&#39; rel=&#39;icon&#39; sizes=&#39;32x32&#39; type=&#39;image/png&#39;/&gt;
+&lt;link href=&#39;<b:include data='{width: 96}' name='logo'/>&#39; rel=&#39;icon&#39; sizes=&#39;96x96&#39; type=&#39;image/png&#39;/&gt;
+&lt;link href=&#39;<b:include data='{width: 144}' name='logo'/>&#39; rel=&#39;icon&#39; sizes=&#39;144x144&#39; type=&#39;image/png&#39;/&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;<b:include data='{width: 180}' name='logo'/>&quot;&gt;
+&lt;link href=&#39;<b:include data='{width: 152}' name='logo'/>&#39; rel=&#39;apple-touch-icon-precomposed&#39; type=&#39;image/png&#39;/&gt;
+&lt;meta content=&#39;<b:include data='{width: 150}' name='logo'/>&#39; name=&#39;msapplication-TileImage&#39;/&gt;
+
+
+
+
+<b:if cond='data:view.isMultipleItems'> <meta content='how to add,blogger tutuorial,blogger premium template,zap mag blogger template,zap mag premium blogger template free download,blogger seo setting 2024,blogger seo tutorials,best blogger template,how to create,free download,best blogger template 2024,technology update news,tech news,Android apps tutorials,learn web design' name='keywords'/> 
+<b:elseif cond='data:view.isSingleItem'/> <meta expr:content='data:view.title.escaped + &quot;, how to add,blogger tutuorial,blogger premium template,zap mag blogger template,zap mag premium blogger template free download,blogger seo setting 2024,blogger seo tutorials,best blogger template,how to create,free download,best blogger template 2024,technology update news,tech news,Android apps tutorials,learn web design &quot;' name='keywords'/> </b:if>   
+
+<b:if cond='data:view.isHomepage or (data:view.search and !data:view.search.label and !data:view.search.query)'>
+<b:with value='data:blog.title.escaped' var='title'> 
+<title><data:title/></title> 
+<meta expr:content='data:title' property='og:title'/> 
+<meta expr:content='data:title' property='og:image:alt'/> 
+<meta expr:content='data:title' property='twitter:title'/> 
+<meta expr:content='data:title' property='twitter:image:alt'/> </b:with> 
+<b:elseif cond='data:view.isError'/> 
+<b:with value='&quot;Loading...&quot;' var='title'> 
+<title><data:title/></title> 
+<meta expr:content='data:title' property='og:title'/> 
+<meta expr:content='data:title' property='og:image:alt'/> 
+<meta expr:content='data:title' property='twitter:title'/> 
+<meta expr:content='data:title' property='twitter:image:alt'/> </b:with> 
+<b:else/> 
+<b:with value='data:blog.pageName.escaped + &quot; - &quot; + data:blog.title.escaped' var='title'> 
+<title><data:title/></title> 
+<meta expr:content='data:title' property='og:title'/> 
+<meta expr:content='data:title' property='og:image:alt'/> 
+<meta expr:content='data:title' property='twitter:title'/> 
+<meta expr:content='data:title' property='twitter:image:alt'/> </b:with> </b:if>
+
+<meta expr:content='data:view.description.escaped' name='description'/> 
+<meta expr:content='data:view.description.escaped' property='og:description'/> 
+<meta expr:content='data:view.description.escaped' property='twitter:description'/>  
+<b:if cond='data:view.featuredImage'> <link expr:href='data:view.featuredImage.escaped' rel='image_src'/> 
+<meta expr:content='resizeImage(data:view.featuredImage, 1200, &quot;1200:630&quot;).escaped' property='og:image'/> 
+<meta expr:content='resizeImage(data:view.featuredImage, 1200, &quot;1200:630&quot;).escaped' property='twitter:image'/>  
+<b:elseif cond='data:blog.postImageUrl'/> 
+<meta expr:content='resizeImage(data:blog.postImageUrl, 1200, &quot;1200:630&quot;).escaped' property='og:image'/> 
+<meta expr:content='resizeImage(data:blog.postImageUrl, 1200, &quot;1200:630&quot;).escaped' property='twitter:image'/> 
+<b:else/> 
+&lt;meta content=&#39;<b:include data='{width: 512}' name='logo'/>&#39; property=&#39;og:image&#39;/&gt; 
+&lt;meta content=&#39;<b:include data='{width: 512}' name='logo'/>&#39; property=&#39;twitter:image&#39;/&gt; </b:if>  
+<b:if cond='&quot;&quot;'> <meta content='' property='article:author'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' property='article:publisher'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' property='fb:app_id'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' property='fb:admins'/> </b:if>  
+<meta content='summary_large_image' name='twitter:card'/> 
+<b:if cond='&quot;&quot;'> <meta content='' name='twitter:site'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' name='twitter:creator'/> </b:if>  
+
+<b:if cond='&quot;&quot;'> <meta content='' name='google-site-verification'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' name='msvalidate.01'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' name='yandex-verification'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' name='baidu-site-verification'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' name='ahrefs-site-verification'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' name='facebook-site-verification'/> </b:if> 
+<b:if cond='&quot;&quot;'> <meta content='' name='p:domain_verify'/> </b:if>  
+<b:if cond='data:view.isHomepage'> <script type='application/ld+json'> { &quot;@context&quot;: &quot;https://schema.org&quot;, &quot;@type&quot;: &quot;WebSite&quot;, &quot;name&quot;: &quot;<data:blog.title.jsonEscaped/>&quot;, &quot;url&quot;: &quot;<data:blog.homepageUrl.canonical.jsonEscaped/>&quot;, &quot;potentialAction&quot;: { &quot;@type&quot;: &quot;SearchAction&quot;, &quot;target&quot;: { &quot;@type&quot;: &quot;EntryPoint&quot;, &quot;urlTemplate&quot;: &quot;<data:blog.homepageUrl.canonical.jsonEscaped/>search?q={search_term_string}&quot; }, &quot;query-input&quot;: &quot;required name=search_term_string&quot; } } </script> <script type='application/ld+json'> { &quot;@context&quot;: &quot;https://schema.org&quot;, &quot;@type&quot;: &quot;Organization&quot;, &quot;name&quot;: &quot;<data:blog.title.jsonEscaped/>&quot;, &quot;url&quot;: &quot;<data:blog.url.canonical.jsonEscaped/>&quot;, &quot;logo&quot;: &quot;<b:include data='{width: 240}' name='logo'/>&quot; } </script> </b:if> 
+</b:includable>
+<b:includable id='logo' var='logo'><b:if cond='true'><b:eval expr='resizeImage(&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmSLxhMYdq2pY1edcy5A3ZE8SiBRlAcd6s03YSTSWxdnupENoH6CQNxf7uzR1kNCKSv0BDmgOU2Fjg2Gn4GfX-s6hzWMHi0xHF5u10_sCMk-FchNd-1f-us6JkUXcv24BW5E2TcBl-SmqAivK9pl2bcOMTlMRLv_rQvxMtM3LlMrOgDYMlRCnNQACIqQg/s240/logo.png&quot;, data:logo.width, &quot;1:1&quot;).escaped'/><b:else/><b:eval expr='&quot;https://imagecdn.app/v2/image/https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmSLxhMYdq2pY1edcy5A3ZE8SiBRlAcd6s03YSTSWxdnupENoH6CQNxf7uzR1kNCKSv0BDmgOU2Fjg2Gn4GfX-s6hzWMHi0xHF5u10_sCMk-FchNd-1f-us6JkUXcv24BW5E2TcBl-SmqAivK9pl2bcOMTlMRLv_rQvxMtM3LlMrOgDYMlRCnNQACIqQg/s240/logo.png?width=&quot; + data:logo.width + &quot;&amp;height=&quot; + data:logo.width'/></b:if></b:includable>
+<b:includable id='css'>
+<style>
+.zapmag-container,.zapmag-container-inner{width:100%;max-width:1080px;margin:0 auto;position:relative}
+.zapmag-container-outer{-webkit-box-shadow:0 0 10px rgba(50,50,50,.17);-moz-box-shadow:0 0 10px rgba(50,50,50,.17);box-shadow:0 0 10px rgba(50,50,50,.17)}
+.zapmag-wrapper{padding:15px;background:white}
+.zapmag-content{width:65.83%;overflow:hidden}
+.zapmag-sidebar{width:31.66%;float:left}
+.zapmag-margin-left{margin-left:2.5%}
+.zapmag-margin-right{margin-right:2.5%}
+.zapmag-right-sb #main-content{float:left;margin-right:2.5%}
+.tagcloud a{-webkit-transition:.25s ease-out;-moz-transition:.25s ease-out;transition:.25s ease-out}
+.clear{clear:both}
+.clearfix,.zapmag-clearfix{display:block}
+.clearfix:after,.zapmag-clearfix:after{content:&quot;&quot;;display:block;clear:both;visibility:hidden;line-height:0;height:0;margin:0;padding:0}
+h1{font-size:2rem}
+h2{font-size:1.5rem}
+big,h3{font-size:1.25rem}
+h4{font-size:1.125rem}
+h5{font-size:1rem}
+h6{font-size:.875rem}
+h1,h2,h3,h4,h5,h6{line-height:1.3;font-weight:700}
+em,i,q{font-style:italic}
+small{font-size:.375rem}
+sub,sup{font-size:.625rem}
+kbd{padding:0 .375rem;background:#f3f4f6;border:1px solid #aaa;border-radius:.1875em;-moz-border-radius:.1875em;-moz-box-shadow:0 .0625em 0 rgba(0,0,0,.2),0 0 0 .125em #fff inset;-webkit-border-radius:.1875em;-webkit-box-shadow:0 .0625em 0 rgba(0,0,0,.2),0 0 0 .125em #fff inset;box-shadow:0 .0625em 0 rgba(0,0,0,.2),0 0 0 .125em #fff inset;text-shadow:0 .0625em 0 #fff}
+blockquote{position:relative;background-color:rgba(155,155,155,.05);color:#111827;font-style:normal;padding:20px;margin:0;border:0.4px solid #dbdbdb;border-radius:3px}
+blockquote:before{position:absolute;content:url(&quot;data:image/svg+xml;utf8,<svg fill='dodgerblue' height='60' viewBox='0 0 16 16' width='60' xmlns='http://www.w3.org/2000/svg'><path d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z'/></svg>&quot;);opacity:.4;margin:0;top:0;left:0}
+sup{vertical-align:super}
+sub{vertical-align:sub}
+abbr,acronym{border-bottom:1px dashed;cursor:help}
+cite{color:#9a9b97}
+address{font-family:&quot;Courier new&quot;;line-height:1.5;margin-bottom:1.25rem}
+a{text-decoration:none}a:hover{color:#1976d2}
+.entry-content ul{list-style:square}
+.entry-content ol{list-style:decimal}
+.entry-content ol,.entry-content ul{margin:0 0 20px 40px}
+.entry-content ol ol,.entry-content ul ul{margin:0 0 0 40px}
+.entry-content li{margin-bottom:5px}
+.entry-content .flex-vid,.entry-content .zapmag-row,.entry-content .zapmag-video-container,.entry-content blockquote,.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,.entry-content p,.entry-header,.entry-thumbnail,.page-header{margin-bottom:1.25rem}
+dl{margin:0 0 10px 20px}
+dd,dt{display:list-item}
+dt{list-style-type:square}
+dd{list-style-type:circle;margin-left:20px}
+.page-title{font-size:1.75rem}
+.zapmag-meta{font-size:.8125rem;white-space:nowrap;text-overflow:ellipsis}
+.zapmag-meta,.zapmag-meta a{color:#979797}
+.zapmag-meta a:hover,.required{color:#e64946}
+.zapmag-meta span{margin-right:10px}
+.zapmag-meta .fa{margin-right:5px}
+.entry-meta{margin-top:.625rem;padding:5px 10px;border-top:1px dotted #dbdbdb;border-bottom:1px dotted #dbdbdb}
+.entry-thumbnail{max-width:1030px}
+.entry-thumbnail img{width:100%}
+.entry-content a{font-weight:600;color:#1976d2}
+.entry-content a:hover{color:#1976d2;text-decoration:none}
+.zapmag-author-box{line-height:1.5;padding:25px 0;margin-bottom:25px;border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb}
+.zapmag-author-box-avatar img{float:left;margin-right:25px;border:1px solid #dbdbdb;border-radius:50%;}
+input,textarea{border:1px solid rgba(0,0,0,.1)}
+.zapmag-author-box-header{margin-bottom:10px}
+.zapmag-author-box-name{font-size:1rem;font-weight:700}
+.author .zapmag-author-box{margin-top:25px}
+.zapmag-loop-item{padding-bottom:1.25rem;margin-bottom:1.25rem;border-bottom:1px solid #dbdbdb}
+.zapmag-loop-header{margin-bottom:.625rem}
+.zapmag-loop-meta{margin-top:5px}
+.zapmag-loop-thumb{float:left;margin-right:20px}
+.zapmag-loop-thumb img{width:100%;max-width:235px}
+.zapmag-copyright-wrap{padding:10px 25px;border-top:3px solid tomato;background:#1976d2;color:white}
+.zapmag-copyright{font-size:.75rem;text-align:center;}
+.zapmag-copyright a{color:white}
+img{max-width:100%;height:auto;vertical-align:bottom;background-color:#f3f4f6}
+input,textarea{background:white}
+input{font-size:12px;padding:5px;vertical-align:middle;-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;transition:.25s ease-in-out}
+input[type=email]:hover,input[type=tel]:hover,input[type=text]:hover,input[type=url]:hover,textarea:hover{border:1px solid #e64946}
+input[type=submit]{display:inline-block;min-width:150px;font-weight:700;color:#fff;padding:10px 15px;background:#e64946;cursor:pointer;text-transform:uppercase;-webkit-transition:.1s linear;-moz-transition:.1s linear;transition:.1s linear;border:0;-webkit-appearance:none}
+input[type=submit]:hover{background:#2a2a2a}
+textarea{width:96%;line-height:1.5;padding:5px}
+.search-form input{font-size:11px;line-height:1;color:#121212;text-transform:uppercase}
+.zapmag-widget-title,.tagcloud a{color:#121212;text-transform:capitalize}
+.search-form .search-submit{display:none}
+.search-form .search-field{padding:10px;margin:0;border:1px solid #dbdbdb;background:white;color:#121212;cursor:pointer;-webkit-appearance:none;-webkit-border-radius:0;border-radius:0}
+.search-form .search-field:active,.search-form .search-field:focus{cursor:text}
+.widget .search-form{display:block;margin:0 auto;padding:5%;background:#f3f4f6}
+.widget .search-form .search-field{display:block;margin:0 auto;width:90%}
+.widget{margin-bottom:25px}
+.zapmag-widget-title{font-size:1rem;padding-bottom:5px;margin-bottom:1.25rem;border-bottom:3px solid #1976d2}
+.zapmag-custom-poszapmag-item{padding:20px 0;border-bottom:1px dotted #dbdbdb}
+.zapmag-custom-poszapmag-item:first-child{padding-top:0}
+.zapmag-custom-poszapmag-thumb{float:left;margin-right:15px}
+.zapmag-cSmall-title{font-weight:700;line-height:1.3;margin-bottom:.3125rem}
+.zapmag-cSmall .zapmag-meta{font-size:.6875rem}
+button{border:none;padding:0}
+.tagcloud a{display:inline-block;font-weight:700;padding:5px;margin:2px;white-space:nowrap;align:justify;border-radius:3px}
+.widget .tagcloud a{background:color:white;border:1px solid #1976d2}
+.tagcloud a:hover,.widget .tagcloud a:hover{color:#fff;background:#1971d6;border-radius:3px;border:1px solid #5893f5}
+@media screen and (max-width:1100){.zapmag-container,.zapmag-container-inner{width:100%}}
+@media screen and (max-width:900px){
+.zapmag-container-outer{margin:0 auto}
+#zapmag-mobile .zapmag-container{width:100%}
+.zapmag-copyright{text-align:center}}
+@media screen and (max-width:767px){
+.zapmag-content,.zapmag-right-sb #main-content,.zapmag-sidebar{float:none;width:100%;margin:0}
+.entry-title{font-size:1.5rem;color:#121212}
+.zapmag-sidebar{margin-top:20px}
+.entry-meta{padding:5px 0}
+#zapmag-mobile .zapmag-cSmall-title{font-size:.875rem}
+#zapmag-mobile-large{font-size:24px;padding:5px 10px}
+#zapmag-mobile-small{font-size:16px}}
+@media screen and (max-width:620px){
+.entry-meta-categories,.zapmag-custom-poszapmag-content .zapmag-excerpt,.zapmag-loop-excerpt,.zapmag-poszapmag-focus-caption-small,.zapmag-poszapmag-list-excerpt{display:none}
+.zapmag-author-box{text-align:center}
+.zapmag-author-box-avatar{float:none;display:inline-block;margin:0 0 20px}
+.entry-content ol,.entry-content ul{margin:0 0 20px 20px}
+.entry-content ol ol,.entry-content ul ul{margin:0 0 0 20px}
+.zapmag-loop-thumb{max-width:80px}
+.zapmag-lt{font-size:.875rem}
+.zapmag-loop-meta{display:block;font-size:.6875rem}
+#zapmag-mobile-small,.zapmag-loop-excerpt{font-size:14px}}
+#zapmag-post-body {font-size:16px}
+.zapmag-copyright-wrap .Text,.social-share ul{padding:0;margin:0}
+.social-share{display:block;margin:2px;margin-top:15px;}
+.social-share ul{list-style:none}
+.social-share ul li{float:left;margin-right:1rem}
+.social-share ul li svg{color:#3D4B69;width:25px;height:25px;}
+.hidden1 {display:none;}
+
+/*header*/
+.nav-links li a,nav .nav-bar .logo a{text-decoration:none;color:var(--text-color)}.nav-links li a,.searchBox,nav .nav-bar{position:relative}.dark-light svg.sun,.dark-light.active svg.moon,.searchBox .head-search,.searchToggle svg.cancel,.searchToggle.active svg.search{opacity:0;pointer-events:none}.body.dark-mode .head-search input,.body.dark-mode .head-search svg,.nav-links li a,nav .nav-bar .logo a,nav .nav-bar .sidebarOpen{color:var(--text-color)}nav.hidden{top:-155px}nav{position:fixed;top:0;left:0;height:50px;width:100%;background-color:#f3f3f3;z-index:100;color:#121212;transition:top .5s}nav .nav-bar{height:100%;max-width:1000px;width:100%;margin:0 auto;padding:0 10px;display:flex;align-items:center;justify-content:space-between;background-color:var(--nav-color)}nav .nav-bar .sidebarOpen{font-size:25px;padding:5px;cursor:pointer;display:none}nav .nav-bar .logo a{font-size:25px;font-weight:500;padding:5px}.menu .logo-toggle{display:none}.nav-bar .nav-links{display:flex;align-items:left}.nav-bar .nav-links li{list-style:none}.nav-links li a{font-size:20px;font-weight:400;padding:15px}.nav-links li:hover a::before{opacity:1}.nav-bar .darkLight-searchBox{display:flex;align-items:center}.darkLight-searchBox .bookmark-icon,.darkLight-searchBox .dark-light{height:40px;width:30px;display:flex;align-items:center;justify-content:center;margin:0 2px}.darkLight-searchBox .searchToggle{height:40px;width:30px;display:flex;align-items:center;justify-content:center;margin-right:20px}.bookmark-icon svg,.dark-light svg,.searchToggle svg{position:absolute;padding:8px;cursor:pointer;color:var(--text-color);transition:.3s}.dark-light.active svg.sun,.searchToggle.active svg.cancel{opacity:1;pointer-events:auto}.searchBox .head-search{position:absolute;bottom:-85px;right:15px;height:50px;width:300px;display:flex;align-items:center;background-color:#1976d2;padding:3px;border-radius:6px;box-shadow:0 5px 5px rgba(0,0,0,.1);transition:.3s}.searchToggle.active~.head-search{bottom:-74px;opacity:1;pointer-events:auto}.head-search::before{content:&#39;&#39;;position:absolute;right:14px;top:-6px;height:15px;width:15px;background-color:#1976d2;transform:rotate(-45deg);z-index:-1}.head-search input[type=text]{width:100%;padding:15px;outline:0;border:none;border-radius:4px;font-size:14px;font-weight:400;color:var(--search-text)}.head-search svg{position:absolute;color:#fff;padding:13px;font-size:22px;cursor:pointer;top:0;right:0}@media (max-width:500px){.menu,.sidebar-overlay{position:fixed;top:0;height:100%}nav .nav-bar .sidebarOpen{display:block}.menu{width:300px;left:-100%;padding:10px;background-color:#f3f3f3;z-index:301;transition:.4s}.sidebar-overlay{display:none;left:0;width:100%;background:rgba(0,0,0,.3);backdrop-filter:blur(4px);z-index:300;transition:opacity .3s}nav.active .menu{left:0}nav.active .nav-bar .navLogo a{opacity:0;transition:.3s}.menu .logo-toggle{display:block;width:100%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(0,0,0,.1)}.menu .logo-toggle a{padding:5px}.logo-toggle .siderbarClose{color:var(--text-color);font-size:24px;cursor:pointer;padding:10px}.nav-bar .nav-links{flex-direction:column;padding-top:10px}.nav-links li a{display:block;padding:5px;font-weight:700}}.header-dark-button-light{display:block}.header-dark-button-dark{display:none}nav .LinkList,nav .section,nav .widget{margin:0;padding:0}.nav-bar .logo img{background-color:transparent;width:80%}.nav-sidebar{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:1;text-overflow:ellipsis;max-height:40px}.navLogo img {width:160px!important;}
+
+<b:if cond='data:view.isSingleItem'>
+#zapmag-post-body img {margin-top:5px; margin-bottom:5px; border-radius:3px;}
+
+
+/*Button icon*/
+.cbbuy:before,.cbdemo:before,.cbdl:before{width:14px;height:14px;line-height:14px;margin-right:5px;filter:invert(1)}.cbbuy,.cbdemo,.cbdl{font-size:14px;border-radius:5px;background:#1976d2;color:white;padding:8px;text-decoration:none;margin:5px}.cbbuy:hover,.cbdemo:hover,.cbdl:hover{background-color:#2f363d}.cbdl:before{content:url(&quot;data:image/svg+xml;utf8,<svg class='feather feather-download' fill='none' height='14' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' width='14' xmlns='http://www.w3.org/2000/svg'><path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/><polyline points='7 10 12 15 17 10'/><line x1='12' x2='12' y1='15' y2='3'/></svg>&quot;)}.cbdemo:before{content:url(&quot;data:image/svg+xml;utf8,<svg class='feather feather-download' fill='none' height='14' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' width='14' xmlns='http://www.w3.org/2000/svg'><path d='M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z'/><circle cx='12' cy='12' r='3'/></svg>&quot;)}.cbbuy:before{content:url(&quot;data:image/svg+xml;utf8,<svg class='feather feather-shopping-cart' fill='none' height='14' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' width='14' xmlns='http://www.w3.org/2000/svg'><circle cx='9' cy='21' r='1'/><circle cx='20' cy='21' r='1'/><path d='M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6'/></svg>&quot;)}
+
+</b:if>
+/*overly*/
+.overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.3);backdrop-filter:blur(4px);z-index:999999999999;transition:opacity 0.3s ease;}
+
+
+/*toast*/
+.toast{visibility:hidden;position:fixed;bottom:0px;left:50%;transform:translateX(-50%);background-color:#323232;color:#D6D6D6;text-align:center;padding:10px;width:100%;max-width:500px;z-index:999999999990;}
+/*loading spinner*/
+.loading-spinner{border:1px solid transparent;border-top:1px solid #121212;border-right:1px solid #121212;border-radius:50%;width:30px;height:30px;animation:0.7s linear infinite spin;margin:0 auto}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+/*pagination*/
+.pagination-jp {margin-bottom:10px;}.pagination a:hover,.pagination-jp a{color:#fff;text-decoration:none}.mt-2-jp{margin-top:.5rem}.flex-jp{display:-webkit-box;display:-ms-flexbox;display:flex}.justify-center-jp{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.btn-jp{align-items:center;border-radius:4px;cursor:pointer;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;justify-content:center;margin:.25rem;padding:.5rem 1rem;pointer-events:auto;text-align:center;-webkit-transition:.15s cubic-bezier(.4,0,.2,1);transition:.15s cubic-bezier(.4,0,.2,1);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle}.primary{background-color:#1976d2;color:#fff}
+
+<b:if cond='data:view.isSingleItem'>
+/*tags*/ 
+.entry-rkcjs{display:flex;flex-wrap:wrap;gap:.5rem;margin:2px 2px 5px}.entry-rkcjs&gt;*{display:flex;align-items:center;height:1.5rem;background:#1976d2;font-size:.75rem;color:#fff;font-weight:500;padding:0 .5rem;border-radius:3px}.entry-rkcjs span{background:#111;color:#fff}.entry-rkcjs a{text-decoration:none}.entry-rkcjs a:hover{color:#fff}
+
+/* comments*/
+.profile-container-king{display:flex;align-items:center;margin-bottom:5px}.profile-picture-king{width:40px;height:40px;border-radius:50%}.author-info-king{display:flex;flex-direction:column;margin-left:10px}.author-name-king{font-weight:700}.comment-date-king{font-size:.8em;color:#888}.comment-content-king{flex-grow:1;display:flex;flex-direction:column;padding-top:5px;padding-bottom:5px}.comment-content-king img{border-radius:10px;}.reply-link-king{color:#3498db;cursor:pointer;margin-left:auto;padding:7px}.reply-link-king:hover{text-decoration:underline}.replies-king{margin-top:10px;margin-left:10px;flex-direction:column-reverse}.reply-king{display:flex;flex-direction:column;margin-top:10px;border-radius:5px;border:1px solid #dbdbdb;background-color:#fff}.king-bdt ol{list-style-type:none;padding:0}.king-bdt li{margin:2px;padding:10px;border-bottom:1px solid #dbdbdb}
+
+ /*code box */   
+.king-bdt pre,pre{font-family:&#39;Courier New&#39;,Courier,monospace;background-color:#1e1e1e;color:#fff;overflow:auto;font-size:18px;padding:10px 10px 10px 0;position:relative}pre{border-radius:0 0 5px 5px;margin:1px auto;overflow-y:auto;max-height:400px;user-select:text;-ms-user-select:text;-webkit-user-select:text}.cb-head{background-color:#363636;padding:5px 5px 5px 10px;color:#fff;border-radius:5px 5px 0 0;margin-bottom:-3px}.cb-head::before{content:&quot;Double click to copy&quot;;}.cb-head::after{content:url(&quot;data:image/svg+xml;utf8,<svg fill='none' height='24' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><polyline points='4 17 10 11 4 5'/><line x1='12' x2='20' y1='19' y2='19'/></svg>&quot;);display:inline-block;width:24px;height:24px;vertical-align:middle;float:right;margin-right:5px}.cb-line-number{display:inline-block;width:2em;margin-right:10px;color:#898989;text-align:right;user-select:none;padding-right:7px;border-right:1px solid #414141}.cb-function{color:red}.cb-keyword{color:grey}.cb-string{color:green}.cb-comment{color:gray;font-style:italic}.cb-quoted-text{color:#ce9178}.cb-color-codes{display:inline-block;width:10px;height:10px;margin-right:2px}.cb-cbbg{color:#569cd6}.cb-cbc{color:#9cdcfe}.cb-rkinf::-scrollbar{scrollbar-width:thin;scrollbar-color:#569CD6}.cb-rkinf::-webkit-scrollbar{height:2px;width:2px}.cb-rkinf::-webkit-scrollbar-thumb{background-color:#3498db}.cb-tag{color:#3498db}.cb-after-colon{color:#ff0}.cb-before-colon{color:#0f0}.cb-before-curly-brace{color:orange}.cb-document{color:#9b59b6}.king-bdt pre{margin:0;user-select:text;-ms-user-select:text;-webkit-user-select:text}
+
+/*Table*/
+.fixed-nowrap&gt;table:not(.table-none):not(.tr-caption-container){white-space:nowrap}table:not(.table-none):not(.tr-caption-container){display:inline-block;max-width:100%;max-height:421px;position:relative;white-space:normal;border-collapse:separate;border-spacing:0;overflow:auto;font-size:15px;border-radius:8px;border:var(--border);--border:1px solid;--border-x:1px solid;border-color:#dbdbdb;background:white}table:not(.table-none):not(.tr-caption-container)::-webkit-scrollbar-corner,table:not(.table-none):not(.tr-caption-container)::-webkit-scrollbar-track{background:0 0}table:not(.table-none):not(.tr-caption-container)::-webkit-scrollbar-thumb{border:3px solid transparent;border-radius:50px;background-clip:padding-box;background-color:#d0d0d0}@media (min-width:768px){table:not(.table-none):not(.tr-caption-container)::-webkit-scrollbar{width:14px;height:14px}table:not(.table-none):not(.tr-caption-container)::-webkit-scrollbar-thumb{border-width:4px}}table:not(.table-none):not(.tr-caption-container)::-webkit-scrollbar-thumb:hover{background-color:#b8b8b8}table:not(.table-none):not(.tr-caption-container) tr{text-align:left}table:not(.table-none):not(.tr-caption-container) tr&gt;*{padding:13px 15px;border-bottom:var(--border-x);border-color:#dbdbdb;background:white}table:not(.table-none):not(.tr-caption-container) tbody tr:last-child&gt;*{border-bottom-width:0}table:not(.table-none).table-noborder-box{--border:0;border-radius:0}table:not(.table-none).table-noborder-box:not(.table-header):not(.table-striped).table-noborder-x tr&gt;:first-child{padding-left:0}table:not(.table-none).table-noborder-box:not(.table-header):not(.table-striped).table-noborder-x tr&gt;:last-child{padding-right:0}table:not(.table-none).table-compact tr&gt;*{padding-top:7px;padding-bottom:7px}table:not(.table-none).table-noborder-x{--border-x:0}table:not(.table-none).table-header thead tr&gt;*{position:relative;z-index:3;background:white;color:white}table:not(.table-none).table-header thead tr&gt;:before{content:&quot;&quot;;width:100%;height:100%;position:absolute;top:0;left:0;z-index:-1;background:#1976d2}table:not(.table-none).table-border-y tr&gt;*{border-right-width:1px}table:not(.table-none).table-border-y tr&gt;:last-child{border-right-width:0}table:not(.table-none).table-border-y thead tr&gt;*{border-color:#dbdbdb}table:not(.table-none).table-border-y.table-header thead tr&gt;*{border-color:rgba(25, 118, 210, 0.6)}table:not(.table-none).table-striped tr:nth-child(2n)&gt;*,table:not(.table-none).table-striped:not(.table-header) thead+tbody tr:nth-child(odd)&gt;*{background:#f9f9f9}table:not(.table-none).table-striped:not(.table-header) thead+tbody tr:nth-child(2n)&gt;*{background:white}table:not(.table-none).table-hover tbody tr:nth-child(n):hover&gt;td,table:not(.table-none).table-hover tbody tr:nth-child(n):hover&gt;th{background:#f3f3f3}table:not(.table-none).table-sticky-t tr:first-child&gt;*{position:sticky;top:0;z-index:3}table:not(.table-none).table-sticky-t thead+tbody tr:first-child&gt;*{top:initial;z-index:initial}table:not(.table-none).table-sticky-l.table-sticky-t thead+tbody tr:first-child&gt;:first-child,table:not(.table-none).table-sticky-t.table-sticky-l thead+tbody tr:first-child&gt;:first-child{z-index:2}table:not(.table-none).table-sticky-l tr&gt;:first-child{position:sticky;left:0;z-index:2}table:not(.table-none).table-sticky-l.table-sticky-t tr:first-child&gt;:first-child{z-index:4}table:not(.table-none).tr-caption-container{white-space:initial;background:0 0;border:0;max-height:none}table:not(.table-none).tr-caption-container td{background:0 0;padding:0;border:0}table:not(.table-none).tr-caption-container td.tr-caption{text-align:center;font-size:14px;opacity:.7;padding-top:5px}table:not(.table-none).tr-caption-container img{margin:0}
+</b:if>
+
+
+
+/* back to top*/
+.back-to-top{display:none;position:fixed;bottom:30px;right:20px;padding:5px;width:30px;height:30px;background-color:#1976d2;color:#fff;border:none;border-radius:5px;cursor:pointer;animation:.5s forwards topIn;z-index:90}.back-to-top:hover{background-color:#555}@keyframes topIn{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}.back-to-top.fadeOut{animation:.5s forwards topOut}@keyframes topOut{from{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(30px)}}
+<b:if cond='data:view.isSingleItem'>
+/*accordion menu*/
+.accordion{margin:1em 0;overflow:hidden;border:1px solid;background:#fff;color:#121212;border-color:#dbdbdb;border-radius:4px}.accordion&gt;div+div&gt;.accordion-title{border-top:1px solid;border-color:#dbdbdb}.accordion-title{display:flex;justify-content:space-between;column-gap:10px;cursor:pointer;padding:12px 16px;font-weight:700}.accordion-title:after{content:url(&quot;data:image/svg+xml;utf8,<svg class='feather feather-chevron-down' fill='none' height='18' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'><polyline points='6 9 12 15 18 9'/></svg>&quot;);width:18px;height:18px;line-height:18px;filter:initial;transition:transform .3s}.accordion-title.open:after{transform:rotate(-180deg)}.accordion-title.open+.accordion-content{padding-bottom:16px}.accordion-title:not(.open)+.accordion-content{height:0}.accordion-content{overflow:hidden;font-size:15px;padding:0 16px;transition:padding-bottom .3s,height .3s}
+</b:if>
+
+<b:if cond='data:view.isSingleItem'>
+/*Tabbed Post*/
+
+.post-tab&gt;ul{padding:0;margin:0;list-style:none}.post-tab&gt;ul.tabbed-post{display:flex;flex-wrap:wrap;font-size:15px}.post-tab&gt;ul.tabbed-post&gt;li{display:flex;column-gap:6px;padding:8px 20px;cursor:pointer;opacity:.7}.post-tab&gt;ul.tabbed-post&gt;li.open{cursor:auto;opacity:1;position:relative}.post-tab&gt;ul.tabbed-post&gt;li.open:before{content:&quot;&quot;;position:absolute;bottom:0;left:0;width:100%;height:2px;background:#1976d2}.post-tab&gt;ul.tabbed-post&gt;li:hover{opacity:1}.post-tab&gt;ul.tabbed-post&gt;li svg{width:16px;height:16px}.post-tab&gt;ul.tabbed-post&gt;li svg:not(.feather){fill:currentColor}.post-tab&gt;ul.tabbed-post-content{padding-top:8px}.post-tab&gt;ul.tabbed-post-content&gt;li{display:none}.post-tab&gt;ul.tabbed-post-content&gt;li&gt;:first-child{margin-top:0}.post-tab&gt;ul.tabbed-post-content&gt;li&gt;:last-child{margin-bottom:0}.post-tab.vertical{display:grid;grid-template-columns:auto 1fr;align-items:start}.post-tab.vertical&gt;ul.tabbed-post{display:grid}.post-tab.vertical&gt;ul.tabbed-post&gt;li{justify-content:right;padding-left:0}.post-tab.vertical&gt;ul.tabbed-post&gt;li.open:before{width:2px;height:100%;bottom:initial;left:initial;right:0;top:0}.post-tab.vertical&gt;ul.tabbed-post-content{padding-top:0;padding-left:16px;border-top:0;border-left:1px solid;border-color:#dbdbdb}.post-tab.vertical&gt;ul.tabbed-post-content&gt;li&gt;:first-child{margin-top:8px}.post-tab.vertical&gt;ul.tabbed-post-content&gt;li&gt;:last-child{margin-bottom:8px}
+
+/*How to step*/
+.list-step:is(ul,ol){list-style:none;margin:0;padding:0}.list-step{list-style:none;counter-reset:n;line-height:1.6}.list-step&gt;li{position:relative;padding-inline-start:30px;padding-block-end:18px;counter-increment:n}.list-step&gt;li::before{content:counter(n);display:flex;align-items:center;justify-content:center;position:absolute;inset-block-start:0;inset-inline-start:0;width:20px;height:20px;border:1px solid #1976d2;border-radius:50%;font-weight:500;font-size:smaller;color:#1976d2;transition:background-color .3s}.list-step&gt;li::after{content:&#39;&#39;;position:absolute;inset-block:calc(20px + 8px) 8px;inset-inline-start:calc(20px / 2);border-inline-start:1px solid #1976d2}.list-step&gt;li:hover::before{background-color:#1976d2;border-color:#1976d2;color:#fff}
+ </b:if>  
+
+
+img.zap-c-img{border-radius:5px}.top-stories-title a{text-decoration:none}.Featured-block,.MainBlog-block,.sidebar-popular{display:grid;grid-template-columns:1fr;align-items:start;margin:0 0 2px}.Featured-block-items .top-stories-post,.MainBlog-block-items .top-stories-post{display:flex;gap:1rem;padding:4px;border-radius:.5rem}.Featured-block-list,.MainBlog-block-list{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.Featured-block-list .top-stories-post,.MainBlog-block-list .top-stories-post,.sidebar-popular-list .top-stories-post{gap:1rem}.Featured-block-list .top-stories-header,.MainBlog-block-list .top-stories-header,.sidebar-popular-list .top-stories-header{flex:1;align-self:center}@media (max-width:380px){.Featured-block-list .top-stories-title{font-size:.875rem}}.Featured-block-list .top-stories-title,.MainBlog-block-list .top-stories-title,.sidebar-popular-list .top-stories-title{font-size:14px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis}.sidebar-popular-items .top-stories-post{display:flex;gap:1rem;border-radius:.5rem}.sidebar-popular-list{display:grid;grid-template-columns:1fr;gap:1rem}@media (max-width:680px){.Featured-block-list,.MainBlog-block-list,.sidebar-popular-list{grid-template-columns:1fr}.list-items .top-stories-post{flex-direction:column;gap:1rem}.list-items .top-stories-header{flex:auto}}@media (max-width:380px){.MainBlog-block-list .top-stories-title,.sidebar-popular-list .top-stories-title{font-size:.875rem}}
+
+    
+    
+.is-single {display:block!important; grid:none!important;}
+
+
+.meta-infos span{margin-right:10px;display:flex;justify-content:center;align-items:center;white-space:nowrap;color:#3E4C6A}.meta-infos span svg{margin-right:3px;padding-bottom:2px}.meta-infos-loop{font-size:.6875rem;margin-top:5px;display:flex;overflow:hidden;width:200px}@media screen and (min-width:500px){.meta-infos-loop{width:150px}}
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    
+    background-color: #fff;
+    border-radius: 10px;
+    width:100%;
+    max-width:450px;
+  }
+
+  .modal-content {
+    padding: 15px;
+  }
+.modal .share-title {padding:5px;margin-bottom:5px;font-size:18px;}
+.modal .modal-content input[type=url],.modal .modal-content button {padding:10px;margin-top:10px;border:none;border-radius:5px;}
+.modal .modal-content input[type=url] {width:76%;border:1px solid #3D4B69;color:#3D4B69;}
+.modal .modal-content button {background-color:#3D4B69; color:#fff;border:1px solid #3D4B69;width:22%;margin-left:5px;}
+.modal .modal-content button:hover {background-color:#1971d6; color:#fff;border:1px solid #1971d6;}
+.copy-share-modal {display:flex; align-items: center; justify-content: center;}
+
+  /* Social icons */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .social-icons .shareli {
+    display: inline-block;
+    background-color:#F9F9FB;
+    border-radius:10px;
+height:55px;}
+.social-icons .shareli:hover {background-color:#f3f3f3;}
+  .social-icons svg {
+    width: 35px;
+    height: 35px;
+    padding:10px;
+    color:#3D4B69;
+    margin-bottom:-3px;
+    
+  }
+.share-modal-post {display:flex; margin:5px 0px 10px 0px;}
+.share-modal-post img {width:80px; height:60px; border-radius:10px;margin-right:10px;border:1px solid #E0E0E2;}
+.share-modal-post-title {color:#3D4B69;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;height:70px;}
+.social-icons a,.social-icons a:hover {color:#3D4B69;} 
+
+  /* Media queries */
+  @media screen and (max-width: 500px) {
+    .modal {
+      bottom: 0;
+      border-radius:10px 10px 0px 0px;
+      transform: translateX(-50%);
+      
+    }
+.social-icons {columns:4;}
+.social-icons li {margin:5px 0px 5px 0px;}
+  }
+
+  @media screen and (min-width: 500px) {
+    .modal {
+    left: 50%;
+    top: 50%; 
+      transform: translate(-50%, -50%);
+    }
+    
+  .android-share {display:none;}
+  }
+  
+#share-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.3);backdrop-filter:blur(4px);z-index:9997;transition:opacity 0.3s ease;}
+
+<b:if cond='data:view.isSingleItem'>
+.post-meta{display:flex;align-items:flex-start;justify-content:space-between;margin-top:5px;}.author-info,.icons span{display:flex;align-items:center}.author-info img{width:30px;height:30px;border-radius:50%;margin-right:5px}.author-name{margin:0 0 -3px;font-size:15px}.posting-date{margin:0;font-size:13px;color:#3E4C6A}.icons{display:flex;}.icons span{align-items:center;justify-content:center;margin-right:10px;}
+.icons svg{width:20px;height:20px;}
+
+canvas {border-radius:10px;width:100%;max-width:500px;margin:10px 0px 10px 0px;}
+.zapmag-author-box-bio a {
+    padding: 4px;
+    background-color: #F9F9FB;
+    border-radius: 10%;
+    color: #3D4B69;
+    height:40px;
+    width:40px;
+    margin:2px;
+}
+.zapmag-author-box-bio svg {margin-bottom:-4px;margin-top:5px;}
+
+.comment-post-btn{background-color:#1976d2;color:#fff;padding:7px;border:none;border-radius:5px;display:flex;align-items:center;justify-content:center;margin:0 auto;}.comment-post-btn:hover{color:#fff;text-decoration:none}
+
+
+
+</b:if>
+<b:if cond='data:view.isError'>
+		 	body {display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content: center;
+
+}
+	.error-container {
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+            position: absolute;
+      top: 30%;
+      
+        }
+        .error-heading {
+            font-size: 5em;
+            color: #333;
+            margin-bottom: 20px;
+            animation: bounce 1s infinite alternate;
+        }
+        .error-message {
+            margin-bottom:10px;
+            text-align:center;
+        }
+        a.error-link {
+            text-decoration: none;
+            color: #007bff;
+            padding: 10px 20px;
+            border: 2px solid #007bff;
+            border-radius: 20px;
+            transition: background-color 0.3s, color 0.3s;
+            margin-top:20px;
+        }
+        .error-link:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+        
+
+    
+.page404-before-loader {position:fixed;left:0;top:0;z-index:100;background-color:#fff;width:100%;height:100%;display:flex;justify-content:center;align-items:center;}
+.page404-loading { display: flex; justify-content: center; } .page404-loading:before { content: url(&quot;data:image/svg+xml;utf8,<svg fill='currentColor' height='26' viewBox='27 27 46 46' width='26' xmlns='http://www.w3.org/2000/svg'><path d='M73 50c0-12.7-10.3-23-23-23S27 37.3 27 50m3.9 0c0-10.5 8.5-19.1 19.1-19.1S69.1 39.5 69.1 50'><animateTransform attributeName='transform' attributeType='XML' dur='.7s' from='0 50 50' repeatCount='indefinite' to='360 50 50' type='rotate'/></path></svg>&quot;); width: 26px; height: 26px; line-height: 26px; filter: var(--x14); margin-right: 20px; } .page404-loading-title { font-size: 21px; }	
+</b:if>
+
+/*Auto Search*/
+.autoSearchOverly {display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.3);backdrop-filter:blur(4px);z-index:9998;transition:opacity 0.3s ease;}
+	.autoSearch {display:none;position:fixed;top:25px;left:50%;width:480px;max-width:calc(100% - (20px * 2));max-height:calc(100% - (25px * 2));background:var(--modal-bg);overflow:hidden;z-index:9999;border-radius:var(--radius);box-shadow:var(--shadow),0 10px 15px -3px #0f172a0d;transform:translate3d(-50%,50%,0);transition:all .17s ease}
+	input[type=search]{width:100%;padding:10px;font-size:20px;border-radius:10px;border:3px solid #1976d2;color:#121212;background-color:#fff;outline:none;font-family:inherit;}
+	input:active,input:hover,input:focus{border:3px solid #1976d2;}
+	input[type=&quot;search&quot;]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/*Widget Title*/
+.widget-title{display:flex;justify-content:space-between;gap:1rem;position:relative;margin:0 0 1.25rem;padding-top:5px;}
+.widget-title .title{font-size:1.25rem;margin-left: 30px;}
+.widget-title .title-link{display:flex;align-items:center;gap:0.25rem;font-size:12;color:#1976d2;font-weight:400;background:#1976d2;color:#fff;padding:4px;border-radius:20px;width:60px;justify-content:center;}
+
+.widget-title .title-link:hover{opacity:.9}
+.widget-title:after { content: &quot;&quot;; width: 29px; height: 25px; border-radius: 10px 0px; display: block; position: absolute; z-index: 1; top: 3px; left: -5px; background: rgba(25, 118, 210, 0.1); margin-top:5px;margin-left:5px;}
+.widget-title:before { content: url(&quot;data:image/svg+xml;utf8,<svg class='feather feather-hash' fill='none' height='20' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><line x1='4' x2='20' y1='9' y2='9'/><line x1='4' x2='20' y1='15' y2='15'/><line x1='10' x2='8' y1='3' y2='21'/><line x1='16' x2='14' y1='3' y2='21'/></svg>&quot;); width: 20px; height: 20px; line-height: 20px; filter: initial; position: absolute; z-index: 2;margin-top:5px;margin-left:5px; }
+
+</style>
+
+</b:includable>	
+  <b:includable id='main-blog-contents'>
+ <b:include data='top' name='status-message'/>
+<div class='MainBlog-block'><b:class cond='data:view.isSingleItem' name='is-single'/>
+<div class='MainBlog-block-items'><b:class cond='data:view.isSingleItem' name='is-single'/>
+<div class='MainBlog-block-list'><b:class cond='data:view.isSingleItem' name='is-single'/>
+<b:loop index='i' values='data:posts' var='post'>
+	
+<b:include data='post' name='post-main-blog'/>
+<b:include cond='data:view.isPost' data='post' name='comment_picker'/>
+</b:loop>
+</div></div></div> 
+<b:include cond='data:view.isMultipleItems' name='nextprev'/>
+
+</b:includable>
+
+
+<b:includable id='status-message'>
+                            <b:if cond='data:view.isHomepage'>
+<div class='widget-title blog1-title'><h3 class='title'>Latest Posts</h3><a class='title-link' href='/search?max-results=8'>View all</a></div>
+<b:if cond='data:numPosts == 0'><div class='entry-content zapmag-widget'>
+<div class='zapmag-box'>
+<p>There are no post found. Please try again later.</p></div></div></b:if>
+   </b:if>
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+   <b:if cond='data:blog.searchLabel'>
+<div class='widget-title blog1-title'><h3 class='title'><data:blog.searchLabel/></h3></div>
+<b:if cond='data:numPosts == 0'><div class='entry-content zapmag-widget'>
+<div class='zapmag-box'>
+<p>There are no post found. Please try again later.</p></div></div></b:if>
+   </b:if>
+   <b:if cond='data:blog.searchQuery'>
+<div class='widget-title blog1-title'><h3 class='title'><data:blog.searchQuery/></h3></div><b:if cond='data:numPosts == 0'><div class='entry-content zapmag-widget'>
+<div class='zapmag-box'>
+<p>The keyword you were looking for was not found.</p></div></div></b:if>
+
+   </b:if>
+   <b:else/>
+  <b:if cond='data:view.isError'><header class='page-header'><h1 class=' page-title'>
+Page not found (404)</h1></header>
+<div class='entry-content zapmag-widget'>
+<div class='zapmag-box'>
+<p>It seems we can&#8217;t find what you&#8217;re looking for. Perhaps searching can help.</p></div></div>
+</b:if>
+</b:if> 
+</b:includable>
+
+
+
+
+
+
+
+
+
+
+<b:includable id='post-main-blog' var='post'>
+                            	  <b:if cond='data:view.isMultipleItems'>
+<div class='top-stories-post infinit-scroll'>
+<a expr:href='data:post.url.canonical'><img class='zap-c-img lazy' expr:alt='data:post.title ? data:post.title : data:messages.noTitle' expr:data-src='data:post.featuredImage ? (data:post.featuredImage.isYouTube ? resizeImage(data:post.featuredImage.youtubeMaxResDefaultUrl.jsonEscaped, 80, &quot;80:60&quot;) : resizeImage(data:post.featuredImage, 80, &quot;80:60&quot;)) : &quot;https://resources.blogblog.com/img/blank.gif&quot;' height='60' loading='lazy' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;80&quot; height=&quot;60&quot;%3E%3C/svg%3E' width='80'/></a>
+<div class='top-stories-header'><h3 class='top-stories-title'><a expr:href='data:post.url.canonical'><b:eval expr='data:post.title ? data:post.title : data:messages.noTitle'/></a></h3><div class='meta-infos meta-infos-loop'><span><svg aria-hidden='true' height='14' width='14'><use xlink:href='#icon-clock'/></svg> <data:post.date/></span><span><svg aria-hidden='true' height='14' width='14'><use xlink:href='#icon-author'/></svg> <data:post.author.name/></span></div></div></div>	
+</b:if>
+<b:if cond='data:view.isSingleItem'>
+	<b:include data='post' name='metadataJSON'/>
+	<b:include name='post-body-meta-header'/>
+	<b:include name='post-body-content'/>
+<b:include cond='data:view.isPost' name='nextprev'/>		
+     <div>
+<b:include cond='data:view.isPost' name='post-body-tags'/>
+<b:include cond='data:view.isPost' name='post-body-share'/>
+  </div>
+<b:include cond='data:view.isPost' data='post' name='post-author-profile'/>
+<b:include cond='data:view.isPost' name='post-body-related-post'/>
+</b:if>  
+</b:includable>
+
+
+
+
+<b:includable id='post-feed-thumb'>
+<figure class='zapmag-loop-thumb'>
+		<a expr:href='data:post.url.canonical'><img class='lazy' expr:alt='data:post.title ? data:post.title : data:messages.noTitle' expr:data-src='data:post.featuredImage ? (data:post.featuredImage.isYouTube ? resizeImage(data:post.featuredImage.youtubeMaxResDefaultUrl.jsonEscaped, 326, &quot;326:245&quot;) : resizeImage(data:post.featuredImage, 326, &quot;326:245&quot;)) : &quot;https://resources.blogblog.com/img/blank.gif&quot;' height='245' sizes='(max-width: 326px) 100vw, 326px' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;326&quot; height=&quot;245&quot;%3E%3C/svg%3E' width='326'/></a>
+	</figure>
+</b:includable>
+
+<b:includable id='post-feed-title'>
+<h3 class='entry-title zapmag-lt'>
+<a expr:href='data:post.url.canonical' rel='bookmark'><b:eval expr='data:post.title ? data:post.title : data:messages.noTitle'/></a>
+</h3>
+</b:includable>
+<b:includable id='post-feed-meta-bookmark'>
+</b:includable>
+<b:includable id='post-feed-meta-date'>
+<span><svg aria-hidden='true' height='14' width='14'><use xlink:href='#icon-clock'/></svg> <data:post.date/></span>
+</b:includable>
+<b:includable id='post-body-meta-header'>
+<header class='entry-header zapmag-clearfix'>
+<b:include name='post-title'/>
+<b:include cond='data:view.isPost' name='post-meta'/>
+	</header>
+</b:includable>
+<b:includable id='post-title'>
+<h1 class='entry-title'> <data:post.title/> </h1>
+</b:includable>
+<b:includable id='post-meta'>
+	<div class='post-meta'>
+        <div class='author-info'>
+            <img class='lazy' expr:alt='data:post.author.name' expr:data-src='data:post.author.authorPhoto.image ? resizeImage(data:post.author.authorPhoto.image, 30, &quot;1:1&quot;) : &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCxxt0n6b048h4UEHf-L5T22U8xCk-IsG2qbfVUMBMKdt2t3ijO6qz--5UBg63qH4V_6z8uIBe7z6VNnueFbF3XKIWkCJPmFQqfm3Rmx3tpBOk74LGDZrUEgGnJF2-VDrzlkZSVyJs2sYjtiCytrEjsw23o88dqy5mdjw0KPwNuySVA7iYfdHWYpgsuQ/w30-h30-rw/avatar.webp&quot;' height='30' loading='lazy' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;30&quot; height=&quot;30&quot;%3E%3C/svg%3E' width='30'/>
+            <div>
+                <b:include name='post-meta-author'/>
+<b:include name='post-meta-date'/>
+                
+            </div>
+        </div>
+        <div class='icons'>
+        	<b:include name='post-meta-comments'/>
+    <b:include name='post-meta-bookmark'/>       
+<span onclick='openShare()'><svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-share'/></svg></span>
+        </div>
+    </div>
+</b:includable>
+<b:includable id='post-meta-author'>
+<p class='author-name'><data:post.author.name/></p>
+</b:includable>
+<b:includable id='post-meta-date'>
+<p class='posting-date'><data:post.date/></p>
+</b:includable>
+<b:includable id='post-meta-comments'>
+<span> <a href='#comments'><svg aria-hidden='true' height='22' width='22'><use xlink:href='#icon-comment'/></svg> <data:post.numberOfComments/></a></span>
+</b:includable>
+<b:includable id='post-meta-bookmark'>
+</b:includable>
+<b:includable id='post-body-content'>
+<div class='entry-content zapmag-clearfix' id='zapmag-post-body'>
+<data:post.body/>
+</div>
+</b:includable>
+
+<b:includable id='post-share'>
+
+</b:includable>
+<b:includable id='post-body-tags'>
+<div class='entry-rkcjs'>
+<span class='labels-label'>Tags:</span><b:include name='post-body-tags-loop'/></div>
+</b:includable>
+<b:includable id='post-body-tags-loop'>
+<b:loop values='data:post.labels' var='label'><a expr:href='data:label.url params {max-results: 8} fragment &quot;&quot;' rel='tag'><data:label.name/></a>
+</b:loop>
+</b:includable>
+
+<b:includable id='post-author-profile'>	<div class='zapmag-author-box zapmag-clearfix'>
+<figure class='zapmag-author-box-avatar'>
+            <b:include name='post-author-profile-pic'/>
+        </figure>
+       <div class='zapmag-author-box-header'>
+  <b:include name='post-author-name'/>
+  <b:include name='post-author-bio'/>     
+        </div></div>
+</b:includable>
+<b:includable id='post-author-bio'>
+<div class='zapmag-author-box-bio'>
+<data:post.author.aboutMe/>
+</div>
+</b:includable>
+<b:includable id='post-author-name'>
+	<span class='zapmag-author-box-name'><data:post.author.name/> <svg aria-hidden='true' height='16' width='16'><use xlink:href='#icon-verified'/></svg></span>
+</b:includable>
+<b:includable id='post-author-profile-pic'>
+	<img class='lazy' expr:alt='data:post.author.name' expr:data-src='data:post.author.authorPhoto.image ? resizeImage(data:post.author.authorPhoto.image, 90, &quot;1:1&quot;) : &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCxxt0n6b048h4UEHf-L5T22U8xCk-IsG2qbfVUMBMKdt2t3ijO6qz--5UBg63qH4V_6z8uIBe7z6VNnueFbF3XKIWkCJPmFQqfm3Rmx3tpBOk74LGDZrUEgGnJF2-VDrzlkZSVyJs2sYjtiCytrEjsw23o88dqy5mdjw0KPwNuySVA7iYfdHWYpgsuQ/w90-h90-rw/avatar.webp&quot;' height='90' loading='lazy' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;90&quot; height=&quot;90&quot;%3E%3C/svg%3E' width='90'/>
+</b:includable>
+
+<b:includable id='post-body-share'>
+ <div class='social-share'><ul><li><svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-share'/></svg></li><li><a expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot; + data:post.url.canonical' target='_blank' title='Facebook'> <svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-facebook'/></svg> </a></li><li><a expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url.canonical' rel='nofollow' target='_blank' title='Whatsapp'> <svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-whatsapp'/></svg></a></li><li><a expr:href='&quot;https://telegram.me/share/url?url=&quot; + data:post.url.canonical + &quot;&amp;text=&quot; + data:post.title' rel='nofollow' target='_blank' title='Telegram'> <svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-telegram'/></svg> </a></li><li><a expr:href='&quot;mailto:?subject=&quot; + data:post.title + &quot;&amp;body=&quot; + data:post.url.canonical' rel='nofollow' target='_blank' title='Email'>
+<svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-email'/></svg></a></li><li onclick='openShare()'><svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-plus'/></svg></li></ul></div>
+<b:include name='post-body-share-model'/>
+
+</b:includable>
+<b:includable id='post-body-share-model'>
+	<div class='modal' id='shareModal'>
+  <div class='modal-content'>
+<div class='share-title'>Share to other apps</div>
+
+<div class='share-modal-post'>
+<img class='lazy' expr:alt='data:post.title ? data:post.title : data:messages.noTitle' expr:data-src='data:post.featuredImage ? (data:post.featuredImage.isYouTube ? resizeImage(data:post.featuredImage.youtubeMaxResDefaultUrl.jsonEscaped, 80, &quot;80:60&quot;) : resizeImage(data:post.featuredImage, 80, &quot;80:60&quot;)) : &quot;https://resources.blogblog.com/img/blank.gif&quot;' height='60' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;80&quot; height=&quot;60&quot;%3E%3C/svg%3E' width='80'/><div class='share-modal-post-title'><data:post.title/></div>
+	</div>
+
+    <ul class='social-icons'>
+      <li class='shareli'><a expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot; + data:blog.url.canonical' rel='noopener' target='_blank'><svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-facebook'/></svg></a></li>
+      <li class='shareli'><a expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:blog.url.canonical' rel='noopener' target='_blank'><svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-whatsapp'/></svg></a></li>
+      <li class='shareli'><a expr:href='&quot;https://t.me/share/url?url=&quot; + data:blog.url.canonical' rel='noopener' target='_blank'><svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-telegram'/></svg></a></li>
+<li class='shareli'><a expr:href='&quot;https://twitter.com/share?url=&quot; + data:blog.url.canonical' rel='noopener' target='_blank'><svg aria-hidden='true' height='16' width='16'><use xlink:href='#icon-twitter'/></svg></a></li>
+      <li class='shareli'><a expr:href='&quot;https://pinterest.com/pin/create/button/?url=&quot; + data:blog.url.canonical + &quot;&amp;media=&quot; + resizeImage(data:blog.postImageUrl, 1600)' rel='noopener' target='_blank'><svg aria-hidden='true' height='16' width='16'><use xlink:href='#icon-pinterest'/></svg></a></li>
+      <li class='shareli'><a expr:href='&quot;https://www.linkedin.com/sharing/share-offsite/?url=&quot; + data:blog.url.canonical' rel='noopener' target='_blank'><svg aria-hidden='true' height='16' width='16'><use xlink:href='#icon-linked-in'/></svg></a></li>
+
+
+<li class='shareli'><a expr:href='&quot;mailto:?body=&quot; + data:blog.url.canonical' target='_blank'><svg aria-hidden='true' height='20' width='20'><use xlink:href='#icon-email'/></svg></a></li>
+<li class='shareli'><svg aria-hidden='true' class='android-share' height='20' width='20'><use xlink:href='#icon-plus'/></svg></li>
+      
+    </ul>
+    <div class='copy-share-modal'>
+    	<input expr:value='data:blog.url.canonical' id='copyPostLink' readonly='readonly' type='url'/>
+<button id='copiedshare' onclick='copyShare()'>Copy</button></div>
+  </div>
+</div>
+
+</b:includable>
+<b:includable id='post-body-related-post'>
+<h3 class='zapmag-widget-title'><span class='zapmag-widget-title-inner'>You Might Like</span></h3>
+<div class='Featured-block'>
+    <div class='Featured-block-items'>
+        &lt;div class=&#39;Featured-block-list&#39; data-label=&#39;<b:if cond='data:post.labels'><b:loop index='i' values='data:post.labels' var='label'><b:if cond='data:i == 0'><data:label.name/></b:if></b:loop></b:if>&#39; data-num=&#39;6&#39;&gt;  &lt;/div&gt;
+    </div>
+</div>
+
+</b:includable>
+
+<b:includable id='post-feed-snippet'>
+<div class='zapmag-loop-excerpt'>
+<div class='zapmag-excerpt'>
+<p><b:eval expr='data:post.snippets.long snippet { length: 150 }'/></p>
+</div></div>
+</b:includable>
+<b:includable id='post-feed-meta'>
+<div class='zapmag-meta zapmag-loop-meta'>
+<b:include name='post-feed-meta-bookmark'/>
+<b:include name='post-feed-meta-date'/>	
+<b:include name='post-feed-meta-author'/>	
+	
+			</div>
+</b:includable>
+
+
+<b:includable id='nextprev'>
+<div class='pagination-jp mt-2-jp flex-jp justify-center-jp'> 
+<b:if cond='data:blog.url == data:blog.homepageUrl'><div class='prev btn-jp primary' style='pointer-events: none; cursor: not-allowed;'>
+<svg class='bi bi-chevron-left' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z' fill-rule='evenodd'/>
+</svg>
+<span>Prev</span>
+</div></b:if>
+<b:if cond='data:newerPageUrl'> <a class='prev btn-jp primary' expr:href='data:newerPageUrl' expr:title='data:messages.newerPosts'><svg class='bi bi-chevron-left' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z' fill-rule='evenodd'/>
+</svg><b:if cond='data:view.isMultipleItems'> Prev <b:elseif cond='data:view.isPost'/> <data:messages.newerPosts/> </b:if> </a> </b:if> <b:if cond='data:view.isMultipleItems'> <a aria-label='Home' class='home btn-jp primary' href='/'>
+<svg aria-hidden='true' class='icon home' fill='none' height='27' stroke='currentColor' stroke-width='1.5' viewBox='0 0 24 24' width='27' xmlns='http://www.w3.org/2000/svg'>
+<path d='M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25' stroke-linecap='round' stroke-linejoin='round'/>
+</svg>
+</a></b:if><b:if cond='data:olderPageUrl'> <a class='next btn-jp primary' expr:href='data:olderPageUrl' expr:title='data:messages.olderPosts'> <b:if cond='data:view.isMultipleItems'> Next <b:elseif cond='data:view.isPost'/> <data:messages.olderPosts/> </b:if><svg class='bi bi-chevron-right' fill='currentColor' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z' fill-rule='evenodd'/>
+</svg></a> </b:if>
+ </div>
+</b:includable>
+
+
+
+
+<b:includable id='comment_picker' var='post'>
+<b:if cond='data:post.embedCommentForm'>
+<div class='zapmag-comment zapmag-wrap king-bdt' id='zapmag-comments'>
+<h4 class='zapmag-widget-title' id='comments'>
+<span class='zapmag-widget-title-inner'><b:eval expr='data:post.numberOfComments gt 0 ? data:post.numberOfComments + &quot; Comments&quot; : &quot;No Comment&quot;'/></span>
+</h4>
+<ol id='bdcomment'>
+<b:loop values='data:post.comments where (c =&gt; not c.inReplyTo or c.inReplyTo == 0)' var='commentLevel1'>
+<li class='comment' expr:id='data:commentLevel1.anchorName'>
+      <div class='profile-container-king'>
+<img class='profile-picture-king lazy' expr:alt='data:commentLevel1.author' expr:data-src='data:commentLevel1.authorAvatarSrc' expr:title='data:commentLevel1.author' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;30&quot; height=&quot;30&quot;%3E%3C/svg%3E'/>
+<div class='author-info-king'>
+          <strong class='author-name-king'>
+<data:commentLevel1.author/>
+<b:if cond='data:commentLevel1.authorUrl == data:post.author.profileUrl'>
+<svg aria-hidden='true' height='16' width='16'><use xlink:href='#icon-verified'/></svg>
+</b:if>
+</strong><span class='comment-date-king'>
+<data:commentLevel1.timestamp/></span>
+</div></div>
+<div class='comment-content-king'><p><b:eval expr='data:commentLevel1.body snippet { links: false }'/></p><a class='reply-link-king' expr:href='data:post.commentFormIframeSrc appendParams {skin: &quot;contempo&quot;,parentID: data:commentLevel1.id}' onclick='loadIframe(this.href)' rel='nofollow noopener noreferrer' target='myiframe'><svg aria-hidden='true' height='14' width='14'><use xlink:href='#icon-reply'/></svg>Reply</a></div>
+<b:with value='data:post.comments where (c =&gt; c.inReplyTo == data:commentLevel1.id)' var='commentL2'>
+<b:if cond='data:commentL2.size gt 0'>
+<ol class='replies-king'>
+<b:loop values='data:commentL2' var='commentLevel2'>
+ <li class='reply-king' expr:id='data:commentLevel2.anchorName'>
+          <div class='profile-container-king'>
+<img class='profile-picture-king lazy' expr:alt='data:commentLevel2.author' expr:data-src='data:commentLevel2.authorAvatarSrc' expr:title='data:commentLevel2.author' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;30&quot; height=&quot;30&quot;%3E%3C/svg%3E'/>
+<div class='author-info-king'>
+              <strong class='author-name-king'>
+<data:commentLevel2.author/>
+<b:if cond='data:commentLevel2.authorUrl == data:post.author.profileUrl'>
+<svg aria-hidden='true' height='16' width='16'><use xlink:href='#icon-verified'/></svg>
+</b:if>
+</strong><span class='comment-date-king'>
+<data:commentLevel2.timestamp/>
+</span></div></div>
+<p><b:eval expr='data:commentLevel2.body snippet { links: false }'/></p>
+</li>
+</b:loop>
+</ol>
+</b:if>
+</b:with>
+</li>
+</b:loop>
+</ol>
+</div>
+<b:if cond='data:post.allowNewComments'>
+<a class='reply-link-king comment-post-btn' expr:href='data:post.commentFormIframeSrc appendParams {skin: &quot;contempo&quot;}' id='comment-button' onclick='loadIframe(this.href)' rel='nofollow noopener noreferrer' target='myiframe'><svg aria-hidden='true' height='14' width='14'><use xlink:href='#icon-write'/></svg> <b:message name='messages.postAComment'/>(<data:post.numberOfComments/>)</a>
+<div id='iframeContainer' style='position: relative; width: 100%; height:100%; display: none;'><iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='330' id='myiframe' name='myiframe' src='about:blank' style='filter:initial;border-radius:5px;margin-top:10px;' width='100%'/><div id='iframePlaceholder' style='position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none; text-align: center;'>
+    <div class='loading-spinner'/>
+  </div>
+</div>
+</b:if>
+</b:if> 
+</b:includable>
+
+
+    <b:includable id='zap-Mag-WidgetTitle'>
+  <b:if cond='data:widget.sectionId in [&quot;carousel&quot;,&quot;sidebar&quot;,&quot;main&quot;,&quot;features-1&quot;,&quot;features-2&quot;]'>
+  <div class='widget-title blog1-title'><h3 class='title'><data:title/></h3><b:if cond='data:widget.sectionId in [&quot;features-1&quot;,&quot;features-2&quot;]'>
+<a class='title-link' expr:href='data:blog.homepageUrl path (&quot;/search/label/&quot; + data:title) params {max-results: 8} fragment &quot;&quot;'>View All</a>
+</b:if></div>  
+</b:if>
+
+    </b:includable>
+    <b:includable id='pagelist-content'>
+    	<h6 class='zapmag-widget-title zapmag-footer-widget-title'><span class='zapmag-widget-title-inner zapmag-footer-widget-title-inner'> <data:title/></span></h6>
+<ul>
+          <b:loop values='data:links' var='link'>
+           <li><a expr:href='data:link.href'><data:link.title/></a></li>
+          </b:loop>
+        </ul>
+    </b:includable>
+    <b:includable id='zap-Mag-Html'>
+      <b:include name='zap-Mag-WidgetTitle'/>
+<b:if cond='data:widget.sectionId in [&quot;features-1&quot;,&quot;features-2&quot;]'>
+	<div class='Featured-block'><div class='Featured-block-items'>
+<div class='Featured-block-list'><b:attr expr:value='data:title' name='data-label'/><b:attr expr:value='data:content' name='data-num'/></div></div></div>
+
+<b:else/>
+<data:content/></b:if>
+    </b:includable>
+    <b:includable id='zap-Mag-PopularPosts'>
+<b:include name='zap-Mag-WidgetTitle'/>
+<b:if cond='data:widget.sectionId in [&quot;carousel&quot;]'>
+<div class='carousel-inner'>	
+<b:loop values='data:posts' var='post'>
+    <div class='carousel-item'>
+    	<b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 300, &quot;300:150&quot;)                                  : data:post.thumbnail' var='image'>
+                    <a expr:href='data:post.url.canonical'><img class='carousel-image lazy' expr:alt='data:post.title' expr:data-src='data:image' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;600&quot; height=&quot;300&quot;%3E%3C/svg%3E'/></a>
+                 </b:with>
+      <div class='carousel-title'><a expr:href='data:post.url.canonical'><span><data:post.title/></span></a></div>
+    </div>
+</b:loop>
+</div>	
+	<b:else/>
+<div class='sidebar-popular'>
+    <div class='sidebar-popular-items'>
+        <div class='sidebar-popular-list'>
+      <b:loop values='data:posts' var='post'>	
+      <div class='top-stories-post'>
+<a expr:href='data:post.url.canonical'>
+                  <b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 80, &quot;80:60&quot;)                                  : data:post.thumbnail' var='image'>
+                    <img class='zap-c-img lazy' expr:alt='data:post.title' expr:data-src='data:image' height='60' loading='lazy' src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;80&quot; height=&quot;60&quot;%3E%3C/svg%3E' width='80'/>
+                  </b:with>
+                </a>
+<div class='top-stories-header'><h3 class='top-stories-title'><a expr:href='data:post.url.canonical'><data:post.title/></a></h3><div class='meta-infos meta-infos-loop'><span><svg aria-hidden='true' height='14' width='14'><use xlink:href='#icon-clock'/></svg>
+<data:post.date/></span><span><svg aria-hidden='true' height='14' width='14'><use xlink:href='#icon-comment'/></svg><data:post.numberOfComments/></span></div></div></div>   
+      </b:loop>
+    </div></div></div>
+
+
+</b:if>
+</b:includable>
+    <b:includable id='zap-Mag-Label'>
+      <b:include name='zap-Mag-WidgetTitle'/>
+<b:if cond='data:widget.sectionId == &quot;sidebar&quot;'>
+<div class='tagcloud'>
+    <b:if cond='data:display == &quot;list&quot;'>
+        <b:loop values='data:labels' var='label'><a expr:dir='data:blog.languageDirection' expr:href='data:label.url params {max-results: 8} fragment &quot;&quot;' style='font-size: 12px;'><data:label.name/><b:if cond='data:showFreqNumbers'>(<data:label.count/>)</b:if></a>
+        </b:loop>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+<a expr:dir='data:blog.languageDirection' expr:href='data:label.url params {max-results: 8} fragment &quot;&quot;' style='font-size: 12px;'><data:label.name/><b:if cond='data:showFreqNumbers'>(<data:label.count/>)</b:if></a>
+     </b:loop>
+    </b:if>
+  </div></b:if>
+
+	
+    </b:includable>
+    <b:includable id='zap-Mag-PageList'>
+          <b:loop values='data:links' var='link'>
+              <a expr:href='data:link.href'>
+              <b:class cond='data:link.isCurrentPage or data:view.url.canonical == data:link.href' name='current-item'/>
+              <data:link.title/></a>
+          </b:loop>
+    </b:includable>
+    <b:includable id='zap-Mag-LinkList'>
+      <b:include name='zap-Mag-WidgetTitle'/>
+<b:loop values='data:links' var='link'><a class='text-reset hover-text-primary' expr:href='data:link.target'><data:link.name/></a></b:loop>
+    </b:includable>
+    <b:includable id='zap-Mag-TextList'>
+      <b:include name='zap-Mag-WidgetTitle'/>
+<b:loop values='data:items' var='item'><data:item/></b:loop>
+    </b:includable>
+    <b:includable id='zap-Mag-Search'>
+<b:include name='zap-Mag-WidgetTitle'/>
+<form class='search-form' expr:action='data:blog.searchUrl'>
+          <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+          <label>
+  <input autocomplete='off' class='search-field' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' placeholder='Search...' title='search' type='text'/></label>
+ <input class='search-submit' expr:value='data:messages.search' title='search' type='submit'/>
+        </form>
+    </b:includable>     
+
+  </b:defaultmarkup>
+</b:defaultmarkups>
+  
+<b:defaultmarkups>
+	  <b:defaultmarkup type='Blog'>
+    <b:includable id='main' var='top'>
+      <b:include name='main-blog-contents'/>
+    </b:includable>
+    <b:includable id='aboutPostAuthor'/>
+    <b:includable id='addComments'/>
+    <b:includable id='blogThisShare'/>
+    <b:includable id='bylineByName'/>
+    <b:includable id='bylineRegion'/>
+    <b:includable id='commentAuthorAvatar'/>
+    <b:includable id='commentDeleteIcon'/>
+    <b:includable id='commentForm'/>
+    <b:includable id='commentFormIframeSrc'/>
+    <b:includable id='commentItem'/>
+    <b:includable id='commentList'/>
+    <b:includable id='commentPicker'/>
+    <b:includable id='comments'/>
+    <b:includable id='commentsLink'/>
+    <b:includable id='commentsLinkIframe'/>
+    <b:includable id='commentsTitle'/>
+    <b:includable id='defaultAdUnit'/>
+    <b:includable id='emailPostIcon'/>
+    <b:includable id='facebookShare'/>
+    <b:includable id='feedLinks'/>
+    <b:includable id='feedLinksBody'/>
+    <b:includable id='footerBylines'/>
+    <b:includable id='googlePlusShare'/>
+    <b:includable id='headerByline'/>
+    <b:includable id='homePageLink'/>
+    <b:includable id='iframeComments'/>
+    <b:includable id='inlineAd'/>
+    <b:includable id='linkShare'/>
+    <b:includable id='manageComments'/>
+    <b:includable id='nextPageLink'/>
+    <b:includable id='otherSharingButton'/>
+    <b:includable id='platformShare'/>
+    <b:includable id='post'/>
+    <b:includable id='postAuthor'/>
+    <b:includable id='postBody'/>
+    <b:includable id='postBodySnippet'/>
+    <b:includable id='postCommentsAndAd'/>
+    <b:includable id='postCommentsLink'/>
+    <b:includable id='postFooter'/>
+    <b:includable id='postFooterAuthorProfile'/>
+    <b:includable id='postHeader'/>
+    <b:includable id='postJumpLink' var='post'/>
+    <b:includable id='postLabels'/>
+    <b:includable id='postLocation'/>
+    <b:includable id='postMeta'/>
+    <b:includable id='postMetadataJSONImage'/>
+    <b:includable id='postMetadataJSONPublisher'/>
+    <b:includable id='postPagination'/>
+    <b:includable id='postReactions'/>
+    <b:includable id='postShareButtons'/>
+    <b:includable id='postTimestamp'/>
+    <b:includable id='postTitle'/>
+    <b:includable id='previousPageLink'/>
+    <b:includable id='sharingButton'/>
+    <b:includable id='sharingButtonContent'/>
+    <b:includable id='sharingButtons'/>
+    <b:includable id='sharingButtonsMenu'/>
+    <b:includable id='sharingPlatformIcon'/>
+    <b:includable id='threadedCommentForm'/>
+    <b:includable id='threadedCommentJs'/>
+    <b:includable id='threadedComments'/>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='HTML'>
+    <b:includable id='main'>
+      <b:include name='zap-Mag-Html'/>
+    </b:includable>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='BlogSearch'>
+   <b:includable id='main'>
+<b:include name='zap-Mag-Search'/>
+    </b:includable>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='PopularPosts'>
+    <b:includable id='main'>
+      <b:include name='zap-Mag-PopularPosts'/>
+    </b:includable>
+    <b:includable id='blogThisShare'/>
+    <b:includable id='bylineByName'/>
+    <b:includable id='bylineRegion'/>
+    <b:includable id='commentsLink'/>
+    <b:includable id='commentsLinkIframe'/>
+    <b:includable id='emailPostIcon'/>
+    <b:includable id='facebookShare'/>
+    <b:includable id='footerBylines'/>
+    <b:includable id='googlePlusShare'/>
+    <b:includable id='headerByline'/>
+    <b:includable id='linkShare'/>
+    <b:includable id='otherSharingButton'/>
+    <b:includable id='platformShare'/>
+    <b:includable id='postAuthor'/>
+    <b:includable id='postCommentsLink'/>
+    <b:includable id='postJumpLink'/>
+    <b:includable id='postLabels'/>
+    <b:includable id='postLocation'/>
+    <b:includable id='postReactions'/>
+    <b:includable id='postShareButtons'/>
+    <b:includable id='postTimestamp'/>
+    <b:includable id='sharingButton'/>
+    <b:includable id='sharingButtonContent'/>
+    <b:includable id='sharingButtons'/>
+    <b:includable id='sharingButtonsMenu'/>
+    <b:includable id='sharingPlatformIcon'/>
+    <b:includable id='snippetedPostByline'/>
+    <b:includable id='snippetedPostContent'/>
+    <b:includable id='snippetedPostThumbnail'/>
+    <b:includable id='snippetedPostTitle'/>
+    <b:includable id='snippetedPosts'/>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='Label'>
+    <b:includable id='main'>
+      <b:include name='zap-Mag-Label'/>
+    </b:includable>
+    <b:includable id='content'/>
+    <b:includable id='cloud'/>
+    <b:includable id='list'/>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='LinkList'>
+    <b:includable id='main'>
+      <b:include name='zap-Mag-LinkList'/>
+    </b:includable>
+    <b:includable id='content'/>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='TextList'>
+    <b:includable id='main'>
+      <b:include name='zap-Mag-TextList'/>
+    </b:includable>
+  </b:defaultmarkup>
+<b:defaultmarkup type='PageList'>
+    <b:includable id='main'>
+      <b:include name='pagelist-content'/>
+    </b:includable>
+  </b:defaultmarkup>
+</b:defaultmarkups>
+
+
+<script data-script='!reload'> var zapmagSLTimeout; var zapmagSL = function(){ var zapmagScript = document.createElement(&#39;script&#39;); zapmagScript.src = &#39;https://mdrakibbd.pages.dev/Settings/Scripts/zapmag-free.js&#39;; zapmagScript.setAttribute(&#39;crossorigin&#39;, &#39;&#39;); zapmagScript.setAttribute(&#39;data-script&#39;, &#39;!reload&#39;); document.head.appendChild(zapmagScript); clearTimeout(zapmagSLTimeout); removeEventListener(&#39;keydown&#39;, zapmagSL); removeEventListener(&#39;mouseover&#39;, zapmagSL); removeEventListener(&#39;touchmove&#39;, zapmagSL); removeEventListener(&#39;touchstart&#39;, zapmagSL); }; if (parseInt(localStorage.getItem(&#39;zapmag_script&#39;)) &gt; 0){ zapmagSL(); } else { window.addEventListener(&#39;load&#39;, function(){ zapmagSLTimeout = setTimeout(zapmagSL, 8000); addEventListener(&#39;keydown&#39;, zapmagSL); addEventListener(&#39;mouseover&#39;, zapmagSL); addEventListener(&#39;touchmove&#39;, zapmagSL); addEventListener(&#39;touchstart&#39;, zapmagSL); }); }; 
+const 
+singleitems = <data:view.isSingleItem/>,
+multipleitems = <data:view.isMultipleItems/>,
+success = <b:eval expr='!data:view.isError'/>,
+error = <b:eval expr='data:view.isError'/>;
+
+</script>
+
+
+&lt;textarea disabled readonly style=&quot;display:none&quot;&gt;</body>&lt;/textarea&gt;&lt;/body&gt;
+</html>
