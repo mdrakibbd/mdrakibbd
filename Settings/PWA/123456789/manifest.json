@@ -1,1 +1,0 @@
-{"short_name":"Test Name","name":"Test Name","description":"Test Description","icons":[{"src":"Test logo","type":"image/png","sizes":"192x192","purpose":"any maskable"},{"src":"Test logo 2","type":"image/png","sizes":"512x512","purpose":"any maskable"}],"start_url":"/","scope":"/","background_color":"#ffffff","theme_color":"#1971d6","display":"standalone"}
