@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1080px;
+            margin: 0 auto;
+            overflow: hidden; /* Clearfix */
+        }
+
+        .main {
+            width: 62.5%;
+            float: left;
+            padding: 20px;
+            background: #ebebeb;
+        }
+
+        .sidebar {
+            width: 29%;
+            float: right;
+            padding: 20px;
+            background-color: #1971d6;
+            color: #fff;
+        }
+
+        .post {
+            margin-bottom: 20px;
+        }
+
+        .post h2 {
+            margin-top: 0;
+        }
+
+        .post p {
+            margin-bottom: 0;
+        }
+
+        .copyright {
+            clear: both; /* Clear the floats */
+            padding: 10px;
+            text-align: center;
+            background: green;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .main, .sidebar {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Header Section</h1>
+</header>
+<div class="container">
+    <div class="main">
+        <div class="post">
+            <h2>Main Content Post 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio vitae leo laoreet commodo. Vestibulum ac libero et eros semper tempus. Nam dignissim metus nec magna accumsan, non dignissim justo interdum.</p>
+        </div>
+        <div class="post">
+            <h2>Main Content Post 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio vitae leo laoreet commodo. Vestibulum ac libero et eros semper tempus. Nam dignissim metus nec magna accumsan, non dignissim justo interdum.</p>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="post">
+            <h2>Sidebar Post 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio vitae leo laoreet commodo.</p>
+        </div>
+        <div class="post">
+            <h2>Sidebar Post 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio vitae leo laoreet commodo.</p>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    Copyright 2024
+</div>
+</body>
+</html>
